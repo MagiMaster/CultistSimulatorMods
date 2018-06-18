@@ -1,0 +1,273 @@
+{
+  "elements": [
+    {
+      "id": "writing_book_secrethistories",
+      "aspects": {
+        "secrethistories": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_secrethistories",
+      "description": "XXX book_secrethistories"
+    },
+    {
+      "id": "writing_book_forge",
+      "aspects": {
+        "forge": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_forge",
+      "description": "XXX book_forge"
+    },
+    {
+      "id": "writing_book_heart",
+      "aspects": {
+        "heart": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_heart",
+      "description": "XXX book_heart"
+    },
+    {
+      "id": "writing_book_edge",
+      "aspects": {
+        "edge": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_edge",
+      "description": "XXX book_edge"
+    },
+    {
+      "id": "writing_book_grail",
+      "aspects": {
+        "grail": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_grail",
+      "description": "XXX book_grail"
+    },
+    {
+      "id": "writing_book_winter",
+      "aspects": {
+        "winter": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_winter",
+      "description": "XXX book_winter"
+    },
+    {
+      "id": "writing_book_lantern",
+      "aspects": {
+        "lantern": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_lantern",
+      "description": "XXX book_lantern"
+    },
+    {
+      "id": "writing_book_moth",
+      "aspects": {
+        "moth": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_moth",
+      "description": "XXX book_moth"
+    },
+    {
+      "id": "writing_book_knock",
+      "aspects": {
+        "knock": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_knock",
+      "description": "XXX book_knock"
+    },
+    {
+      "id": "writing_book_forge_subvert",
+      "aspects": {
+        "forge": 8,
+        "lantern": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_forge_subvert",
+      "description": "XXX book_forge_subvert"
+    },
+    {
+      "id": "writing_book_heart_subvert",
+      "aspects": {
+        "heart": 8,
+        "winter": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_heart_subvert",
+      "description": "XXX book_heart_subvert"
+    },
+    {
+      "id": "writing_book_edge_subvert",
+      "aspects": {
+        "edge": 8,
+        "forge": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_edge_subvert",
+      "description": "XXX book_edge_subvert"
+    },
+    {
+      "id": "writing_book_grail_subvert",
+      "aspects": {
+        "grail": 8,
+        "heart": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_grail_subvert",
+      "description": "XXX book_grail_subvert"
+    },
+    {
+      "id": "writing_book_winter_subvert",
+      "aspects": {
+        "winter": 8,
+        "edge": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_winter_subvert",
+      "description": "XXX book_winter_subvert"
+    },
+    {
+      "id": "writing_book_lantern_subvert",
+      "aspects": {
+        "lantern": 8,
+        "moth": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_lantern_subvert",
+      "description": "XXX book_lantern_subvert"
+    },
+    {
+      "id": "writing_book_moth_subvert",
+      "aspects": {
+        "moth": 8,
+        "grail": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "label": "XXX book_moth_subvert",
+      "description": "XXX book_moth_subvert"
+    },
+    {
+      "id": "writing_almanac",
+      "isaspect": true,
+      "label": "XXX almanac",
+      "description": "XXX almanac"
+    },
+    {
+      "id": "writing_almanac_forge",
+      "aspects": {
+        "forge": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_forge",
+      "description": "XXX almanac_forge"
+    },
+    {
+      "id": "writing_almanac_heart",
+      "aspects": {
+        "heart": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_heart",
+      "description": "XXX almanac_heart"
+    },
+    {
+      "id": "writing_almanac_edge",
+      "aspects": {
+        "edge": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_edge",
+      "description": "XXX almanac_edge"
+    },
+    {
+      "id": "writing_almanac_grail",
+      "aspects": {
+        "grail": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_grail",
+      "description": "XXX almanac_grail"
+    },
+    {
+      "id": "writing_almanac_winter",
+      "aspects": {
+        "winter": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_winter",
+      "description": "XXX almanac_winter"
+    },
+    {
+      "id": "writing_almanac_lantern",
+      "aspects": {
+        "lantern": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_lantern",
+      "description": "XXX almanac_lantern"
+    },
+    {
+      "id": "writing_almanac_moth",
+      "aspects": {
+        "moth": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_moth",
+      "description": "XXX almanac_moth"
+    },
+    {
+      "id": "writing_almanac_knock",
+      "aspects": {
+        "knock": 10,
+        "text": 1,
+        "writing_almanac": 1,
+        "secrethistories": 1
+      },
+      "lifetime": 180,
+      "label": "XXX almanac_knock",
+      "description": "XXX almanac_knock"
+    }
+  ]
+}

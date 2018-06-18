@@ -1,0 +1,89 @@
+{
+  "decks": [
+    {
+      "id": "writing_reputation",
+      "label": "Reputation",
+      "description": "XXX reputation",
+      "spec": [
+        "mystique",
+        "mystique",
+        "mystique",
+        "mystique",
+        "mystique",
+        "mystique",
+        "mystique",
+        "mystique",
+        "notoriety",
+        "notoriety"
+      ],
+      "resetonexhaustion": true
+    },
+    {
+      "id": "writing_results_basic",
+      "label": "Writing results",
+      "description": "XXX results",
+      "spec": [
+        "contentment",
+        "contentment",
+        "contentment",
+        "fleeting",
+        "fleeting",
+        "restlessness",
+        "restlessness",
+        "restlessness"
+      ],
+      "resetonexhaustion": true
+    },
+    {
+      "id": "writing_results_reason",
+      "label": "Writing results",
+      "description": "XXX results reason",
+      "spec": [
+        "contentment",
+        "contentment",
+        "erudition",
+        "erudition",
+        "erudition",
+        "erudition",
+        "erudition",
+        "fleeting"
+      ],
+      "resetonexhaustion": true
+    },
+    {
+      "id": "writing_results_passion",
+      "label": "Writing results",
+      "description": "XXX results passion",
+      "spec": [
+        "contentment",
+        "contentment",
+        "glimmering",
+        "glimmering",
+        "glimmering",
+        "glimmering",
+        "glimmering",
+        "fleeting"
+      ],
+      "resetonexhaustion": true
+    },
+    {
+      "id": "writing_results_random",
+      "label": "Writing results",
+      "description": "XXX results passion",
+      "spec": [
+        "glimmering",
+        "glimmering",
+        "glimmering",
+        "glimmering",
+        "glimmering",
+        "erudition",
+        "erudition",
+        "erudition",
+        "erudition",
+        "erudition",
+        "contentment"
+      ],
+      "resetonexhaustion": true
+    }
+  ]
+}

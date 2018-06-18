@@ -1,0 +1,58 @@
+{
+  "recipes": [
+    {
+      "id": "studyincreasewritingskilla",
+      "label": "Exercise the Mind: Wiser...",
+      "actionId": "study",
+      "requirements": {
+        "writingskilla": 1,
+        "erudition": 4
+      },
+      "aspects": {
+        "careeradvancement": 1
+      },
+      "startdescription": "Knowledge is a city wall built stone by stone. But what waits in the darkness beyond the walls? Why would we need a fortress, except that we had something to fear?",
+      "description": "I have reordered the boundaries of my ignorance.",
+      "effects": {
+        "reason": 1
+      },
+      "warmup": 60,
+      "craftable": true
+    },
+    {
+      "id": "studyincreasewritingskillb",
+      "label": "Exercise the Mind:  Wisest...",
+      "actionId": "study",
+      "requirements": {
+        "writingskillb": 1,
+        "erudition": 6
+      },
+      "aspects": {
+        "careeradvancement": 1
+      },
+      "startdescription": "I will grow wiser yet.",
+      "description": "I am a savant of secret wisdoms.",
+      "effects": {
+        "reason": 1
+      },
+      "warmup": 60,
+      "craftable": true
+    },
+    {
+      "id": "studyincreasewritingskillc",
+      "label": "Exercise the Mind: A Busier Mind",
+      "actionId": "study",
+      "requirements": {
+        "writingskillc": 1,
+        "erudition": 8
+      },
+      "startdescription": "Now I forget as much as I learn, but I can still gain Reason.",
+      "description": "My mind is a paradise of mirrors, in which all things are clear, even those things I might prefer not to see.",
+      "effects": {
+        "reason": 1
+      },
+      "warmup": 60,
+      "craftable": true
+    }
+  ]
+}

@@ -1,0 +1,872 @@
+{
+  "recipes": [
+    {
+      "id": "almanac_forge",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "forge": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_forge_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_forge_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_forge_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX forge",
+      "description": "XXX forge",
+      "startdescription": "XXX forge",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_heart",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "heart": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_heart_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_heart_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_heart_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX heart",
+      "description": "XXX heart",
+      "startdescription": "XXX heart",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_edge",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "edge": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_edge_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_edge_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_edge_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX edge",
+      "description": "XXX edge",
+      "startdescription": "XXX edge",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_grail",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "grail": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_grail_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_grail_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_grail_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX grail",
+      "description": "XXX grail",
+      "startdescription": "XXX grail",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_winter",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "winter": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_winter_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_winter_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_winter_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX winter",
+      "description": "XXX winter",
+      "startdescription": "XXX winter",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_lantern",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "lantern": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_lantern_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_lantern_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_lantern_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX lantern",
+      "description": "XXX lantern",
+      "startdescription": "XXX lantern",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_moth",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "moth": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_moth_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_moth_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_moth_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX moth",
+      "description": "XXX moth",
+      "startdescription": "XXX moth",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_knock",
+      "actionId": "explore",
+      "requirements": {
+        "writing_almanac": 1,
+        "knock": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_knock_c",
+          "chance": 10
+        },
+        {
+          "id": "almanac_knock_b",
+          "chance": 35
+        },
+        {
+          "id": "almanac_knock_a",
+          "chance": 100
+        }
+      ],
+      "craftable": true,
+      "label": "XXX knock",
+      "description": "XXX knock",
+      "startdescription": "XXX knock",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_forge_c",
+      "actionId": "explore",
+      "effects": {
+        "influenceforgee": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX forge_c",
+      "description": "XXX forge_c",
+      "startdescription": "XXX forge_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_heart_c",
+      "actionId": "explore",
+      "effects": {
+        "influencehearte": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX heart_c",
+      "description": "XXX heart_c",
+      "startdescription": "XXX heart_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_edge_c",
+      "actionId": "explore",
+      "effects": {
+        "influenceedgee": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX edge_c",
+      "description": "XXX edge_c",
+      "startdescription": "XXX edge_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_grail_c",
+      "actionId": "explore",
+      "effects": {
+        "influencegraile": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX grail_c",
+      "description": "XXX grail_c",
+      "startdescription": "XXX grail_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_winter_c",
+      "actionId": "explore",
+      "effects": {
+        "influencewintere": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX winter_c",
+      "description": "XXX winter_c",
+      "startdescription": "XXX winter_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_lantern_c",
+      "actionId": "explore",
+      "effects": {
+        "influencelanterne": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX lantern_c",
+      "description": "XXX lantern_c",
+      "startdescription": "XXX lantern_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_moth_c",
+      "actionId": "explore",
+      "effects": {
+        "influencemothe": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX moth_c",
+      "description": "XXX moth_c",
+      "startdescription": "XXX moth_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_knock_c",
+      "actionId": "explore",
+      "effects": {
+        "influenceknocke": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_notoriety",
+          "chance": 10
+        },
+        {
+          "id": "almanac_fascination",
+          "chance": 35
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 100
+        }
+      ],
+      "label": "XXX knock_c",
+      "description": "XXX knock_c",
+      "startdescription": "XXX knock_c",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_forge_b",
+      "actionId": "explore",
+      "effects": {
+        "influenceforgec": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX forge_b",
+      "description": "XXX forge_b",
+      "startdescription": "XXX forge_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_heart_b",
+      "actionId": "explore",
+      "effects": {
+        "influenceheartc": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX heart_b",
+      "description": "XXX heart_b",
+      "startdescription": "XXX heart_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_edge_b",
+      "actionId": "explore",
+      "effects": {
+        "influenceedgec": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX edge_b",
+      "description": "XXX edge_b",
+      "startdescription": "XXX edge_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_grail_b",
+      "actionId": "explore",
+      "effects": {
+        "influencegrailc": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX grail_b",
+      "description": "XXX grail_b",
+      "startdescription": "XXX grail_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_winter_b",
+      "actionId": "explore",
+      "effects": {
+        "influencewinterc": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX winter_b",
+      "description": "XXX winter_b",
+      "startdescription": "XXX winter_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_lantern_b",
+      "actionId": "explore",
+      "effects": {
+        "influencelanternc": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX lantern_b",
+      "description": "XXX lantern_b",
+      "startdescription": "XXX lantern_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_moth_b",
+      "actionId": "explore",
+      "effects": {
+        "influencemothc": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX moth_b",
+      "description": "XXX moth_b",
+      "startdescription": "XXX moth_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_knock_b",
+      "actionId": "explore",
+      "effects": {
+        "influenceknockc": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_fascination",
+          "chance": 10
+        },
+        {
+          "id": "almanac_dread",
+          "chance": 35
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 100
+        }
+      ],
+      "label": "XXX knock_b",
+      "description": "XXX knock_b",
+      "startdescription": "XXX knock_b",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_forge_a",
+      "actionId": "explore",
+      "effects": {
+        "influenceforge": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX forge_a",
+      "description": "XXX forge_a",
+      "startdescription": "XXX forge_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_heart_a",
+      "actionId": "explore",
+      "effects": {
+        "influenceheart": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX heart_a",
+      "description": "XXX heart_a",
+      "startdescription": "XXX heart_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_edge_a",
+      "actionId": "explore",
+      "effects": {
+        "influenceedge": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX edge_a",
+      "description": "XXX edge_a",
+      "startdescription": "XXX edge_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_grail_a",
+      "actionId": "explore",
+      "effects": {
+        "influencegrail": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX grail_a",
+      "description": "XXX grail_a",
+      "startdescription": "XXX grail_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_winter_a",
+      "actionId": "explore",
+      "effects": {
+        "influencewinter": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX winter_a",
+      "description": "XXX winter_a",
+      "startdescription": "XXX winter_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_lantern_a",
+      "actionId": "explore",
+      "effects": {
+        "influencelantern": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX lantern_a",
+      "description": "XXX lantern_a",
+      "startdescription": "XXX lantern_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_moth_a",
+      "actionId": "explore",
+      "effects": {
+        "influencemoth": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX moth_a",
+      "description": "XXX moth_a",
+      "startdescription": "XXX moth_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_knock_a",
+      "actionId": "explore",
+      "effects": {
+        "influenceknock": 1
+      },
+      "linked": [
+        {
+          "id": "almanac_dread",
+          "chance": 10
+        },
+        {
+          "id": "almanac_mystique",
+          "chance": 35
+        },
+        {
+          "id": "almanac_safe",
+          "chance": 100
+        }
+      ],
+      "label": "XXX knock_a",
+      "description": "XXX knock_a",
+      "startdescription": "XXX knock_a",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_safe",
+      "actionId": "explore",
+      "label": "XXX safe",
+      "description": "XXX safe",
+      "startdescription": "XXX safe",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_mystique",
+      "actionId": "explore",
+      "effects": {
+        "mystique": 1
+      },
+      "label": "XXX mystique",
+      "description": "XXX mystique",
+      "startdescription": "XXX mystique",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_dread",
+      "actionId": "explore",
+      "effects": {
+        "dread": 1
+      },
+      "label": "XXX dread",
+      "description": "XXX dread",
+      "startdescription": "XXX dread",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_fascination",
+      "actionId": "explore",
+      "effects": {
+        "fascination": 1
+      },
+      "label": "XXX fascination",
+      "description": "XXX fascination",
+      "startdescription": "XXX fascination",
+      "warmup": 1
+    },
+    {
+      "id": "almanac_notoriety",
+      "actionId": "explore",
+      "effects": {
+        "notoriety": 1
+      },
+      "label": "XXX notoriety",
+      "description": "XXX notoriety",
+      "startdescription": "XXX notoriety",
+      "warmup": 1
+    }
+  ]
+}

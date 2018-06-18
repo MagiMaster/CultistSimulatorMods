@@ -1,0 +1,281 @@
+{
+  "elements": [
+    {
+      "id": "writingskill",
+      "icon": "reasonskill",
+      "label": "Penmanship",
+      "isAspect": true,
+      "description": "I am a pillar of wisdoms."
+    },
+    {
+      "id": "writingskilla",
+      "icon": "reasonskilla",
+      "label": "Skill: Writing",
+      "aspects": {
+        "writingskill": 1,
+        "ability": 1
+      },
+      "description": "I am flush with clever quotations.",
+      "slots": [
+        {
+          "id": "e1",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Shall I stock my mind with more knowledge?",
+          "actionId": "study"
+        },
+        {
+          "id": "e2",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Shall I stock my mind with more knowledge?",
+          "actionId": "study"
+        },
+        {
+          "id": "e3",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Shall I stock my mind with more knowledge?",
+          "actionId": "study"
+        },
+        {
+          "id": "e4",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Shall I stock my mind with more knowledge?",
+          "actionId": "study"
+        },
+        {
+          "id": "writing_subject",
+          "label": "Subject",
+          "required": {
+            "lore": 1,
+            "tool": 1,
+            "influence": 1,
+            "summoned": 1,
+            "ingredient": 1
+          },
+          "forbidden": {
+            "ability": 1
+          },
+          "description": "What shall be the subject of my pen?",
+          "actionId": "work"
+        }
+      ],
+      "xtriggers": {
+        "careeradvancement": "writingskillb"
+      }
+    },
+    {
+      "id": "writingskillb",
+      "icon": "reasonskillb",
+      "label": "Skill: Notable Writing",
+      "description": "I have learnt enough to know how little I know.",
+      "xtriggers": {
+        "careeradvancement": "writingskillc"
+      },
+      "aspects": {
+        "writingskill": 2,
+        "ability": 1
+      },
+      "slots": [
+        {
+          "id": "e1",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Could I learn even more?",
+          "actionId": "study"
+        },
+        {
+          "id": "e2",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Could I learn even more?",
+          "actionId": "study"
+        },
+        {
+          "id": "e3",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Could I learn even more?",
+          "actionId": "study"
+        },
+        {
+          "id": "e4",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Could I learn even more?",
+          "actionId": "study"
+        },
+        {
+          "id": "e5",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Could I learn even more?",
+          "actionId": "study"
+        },
+        {
+          "id": "e6",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Could I learn even more?",
+          "actionId": "study"
+        },
+        {
+          "id": "writing_subject",
+          "label": "Subject",
+          "required": {
+            "lore": 1,
+            "tool": 1,
+            "influence": 1,
+            "summoned": 1,
+            "ingredient": 1
+          },
+          "forbidden": {
+            "ability": 1
+          },
+          "description": "What shall be the subject of my pen?",
+          "actionId": "work"
+        }
+      ]
+    },
+    {
+      "id": "writingskillc",
+      "icon": "reasonskillc",
+      "label": "Skill: Profound Writing",
+      "description": "My skull creaks at the corners with the knowledge I've accrued.",
+      "aspects": {
+        "writingskill": 3,
+        "ability": 1
+      },
+      "slots": [
+        {
+          "id": "e1",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "e2",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "e3",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "e4",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "e5",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "e6",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "e7",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "e8",
+          "label": "Erudition",
+          "required": {
+            "erudition": 1
+          },
+          "consumes": true,
+          "description": "Can I sharpen my reason further?",
+          "actionId": "study"
+        },
+        {
+          "id": "writing_subject",
+          "label": "Subject",
+          "required": {
+            "lore": 1,
+            "tool": 1,
+            "influence": 1,
+            "summoned": 1,
+            "ingredient": 1
+          },
+          "forbidden": {
+            "ability": 1
+          },
+          "description": "What shall be the subject of my pen?",
+          "actionId": "work"
+        }
+      ]
+    }
+  ]
+}

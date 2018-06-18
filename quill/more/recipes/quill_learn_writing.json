@@ -1,0 +1,62 @@
+{
+  "recipes": [
+    {
+      "id": "transform_scholarship_a",
+      "label": "XXX Learn to Write",
+      "actionId": "dream",
+      "requirements": {
+        "reasonskill": 1
+      },
+      "effects": {
+        "reasonskill": -99,
+        "writingskilla": 1
+      },
+      "alternativerecipes": [
+        {
+          "id": "transform_scholarship_c",
+          "chance": 100
+        },
+        {
+          "id": "transform_scholarship_b",
+          "chance": 100
+        }
+      ],
+      "startdescription": "XXX Learn to Write A",
+      "description": "XXX ...",
+      "warmup": 10,
+      "craftable": true
+    },
+    {
+      "id": "transform_scholarship_b",
+      "label": "XXX Learn to Write",
+      "actionId": "dream",
+      "requirements": {
+        "reasonskill": 2
+      },
+      "effects": {
+        "reasonskill": -99,
+        "writingskillb": 1
+      },
+      "startdescription": "XXX Learn to Write B",
+      "description": "XXX ...",
+      "warmup": 10,
+      "craftable": true
+    },
+    {
+      "id": "transform_scholarship_c",
+      "label": "XXX Learn to Write",
+      "actionId": "dream",
+      "requirements": {
+        "reasonskill": 3
+      },
+      "effects": {
+        "reasonskill": -99,
+        "writingskillc": 1
+      },
+      "startdescription": "XXX Learn to Write C",
+      "description": "XXX ...",
+      "warmup": 10,
+      "craftable": true
+    }
+  ]
+}
