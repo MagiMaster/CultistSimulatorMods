@@ -58,7 +58,7 @@
           "actionId": "study"
         },
         {
-          "id": "writing_subject",
+          "id": "quill_subject",
           "label": "Subject",
           "required": {
             "lore": 1,
@@ -152,7 +152,7 @@
           "actionId": "study"
         },
         {
-          "id": "writing_subject",
+          "id": "quill_subject",
           "label": "Subject",
           "required": {
             "lore": 1,
@@ -260,7 +260,7 @@
           "actionId": "study"
         },
         {
-          "id": "writing_subject",
+          "id": "quill_subject",
           "label": "Subject",
           "required": {
             "lore": 1,

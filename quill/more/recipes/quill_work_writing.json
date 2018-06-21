@@ -1,11 +1,11 @@
 {
   "recipes": [
     {
-      "id": "writing_lore",
+      "id": "quill_write_lore",
       "actionId": "work",
       "linked": [
         {
-          "id": "writing_add_pigment",
+          "id": "quill_add_pigment",
           "chance": 100
         }
       ],
@@ -17,61 +17,17 @@
         "fatiguing": 1
       },
       "craftable": true,
-      "label": "XXX lore",
-      "description": "XXX lore",
-      "startdescription": "XXX lore",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_write_lore",
+      "description": "XXX quill_write_lore",
+      "label": "XXX quill_write_lore"
     },
     {
-      "id": "writing_influence",
+      "id": "quill_write_ingredient",
       "actionId": "work",
       "linked": [
         {
-          "id": "writing_add_pigment",
-          "chance": 100
-        }
-      ],
-      "requirements": {
-        "writingskill": 1,
-        "influence": 1
-      },
-      "aspects": {
-        "fatiguing": 1
-      },
-      "craftable": true,
-      "label": "XXX influence",
-      "description": "XXX influence",
-      "startdescription": "XXX influence",
-      "warmup": 1
-    },
-    {
-      "id": "writing_tool",
-      "actionId": "work",
-      "linked": [
-        {
-          "id": "writing_add_pigment",
-          "chance": 100
-        }
-      ],
-      "requirements": {
-        "writingskill": 1,
-        "tool": 1
-      },
-      "aspects": {
-        "fatiguing": 1
-      },
-      "craftable": true,
-      "label": "XXX tool",
-      "description": "XXX tool",
-      "startdescription": "XXX tool",
-      "warmup": 1
-    },
-    {
-      "id": "writing_ingredient",
-      "actionId": "work",
-      "linked": [
-        {
-          "id": "writing_add_pigment",
+          "id": "quill_add_pigment",
           "chance": 100
         }
       ],
@@ -83,17 +39,61 @@
         "fatiguing": 1
       },
       "craftable": true,
-      "label": "XXX ingredient",
-      "description": "XXX ingredient",
-      "startdescription": "XXX ingredient",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_write_ingredient",
+      "description": "XXX quill_write_ingredient",
+      "label": "XXX quill_write_ingredient"
     },
     {
-      "id": "writing_summoned",
+      "id": "quill_write_influence",
       "actionId": "work",
       "linked": [
         {
-          "id": "writing_add_pigment",
+          "id": "quill_add_pigment",
+          "chance": 100
+        }
+      ],
+      "requirements": {
+        "writingskill": 1,
+        "influence": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "craftable": true,
+      "warmup": 1,
+      "startdescription": "XXX quill_write_influence",
+      "description": "XXX quill_write_influence",
+      "label": "XXX quill_write_influence"
+    },
+    {
+      "id": "quill_write_tool",
+      "actionId": "work",
+      "linked": [
+        {
+          "id": "quill_add_pigment",
+          "chance": 100
+        }
+      ],
+      "requirements": {
+        "writingskill": 1,
+        "tool": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "craftable": true,
+      "warmup": 1,
+      "startdescription": "XXX quill_write_tool",
+      "description": "XXX quill_write_tool",
+      "label": "XXX quill_write_tool"
+    },
+    {
+      "id": "quill_write_summoned",
+      "actionId": "work",
+      "linked": [
+        {
+          "id": "quill_add_pigment",
           "chance": 100
         }
       ],
@@ -108,13 +108,13 @@
         "fatiguing": 1
       },
       "craftable": true,
-      "label": "XXX summoned",
-      "description": "XXX summoned",
-      "startdescription": "XXX summoned",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_write_summoned",
+      "description": "XXX quill_write_summoned",
+      "label": "XXX quill_write_summoned"
     },
     {
-      "id": "writing_add_pigment",
+      "id": "quill_add_pigment",
       "actionId": "work",
       "slots": [
         {
@@ -127,160 +127,55 @@
       ],
       "alternativerecipes": [
         {
-          "id": "writing_added_forge_match",
+          "id": "quill_added_lantern_match",
           "chance": 100
         },
         {
-          "id": "writing_added_heart_match",
+          "id": "quill_added_winter_match",
           "chance": 100
         },
         {
-          "id": "writing_added_edge_match",
+          "id": "quill_added_forge_match",
           "chance": 100
         },
         {
-          "id": "writing_added_grail_match",
+          "id": "quill_added_edge_match",
           "chance": 100
         },
         {
-          "id": "writing_added_winter_match",
+          "id": "quill_added_knock_match",
           "chance": 100
         },
         {
-          "id": "writing_added_lantern_match",
+          "id": "quill_added_heart_match",
           "chance": 100
         },
         {
-          "id": "writing_added_moth_match",
+          "id": "quill_added_grail_match",
           "chance": 100
         },
         {
-          "id": "writing_added_knock_match",
+          "id": "quill_added_moth_match",
           "chance": 100
         },
         {
-          "id": "writing_added_pigment",
+          "id": "quill_added_pigment",
           "chance": 100
         }
       ],
       "linked": [
         {
-          "id": "writing_add_reason_passion",
+          "id": "quill_add_reason_passion",
           "chance": 100
         }
       ],
-      "label": "XXX add_pigment",
-      "description": "XXX add_pigment",
-      "startdescription": "XXX add_pigment",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_add_pigment",
+      "description": "XXX quill_add_pigment",
+      "label": "XXX quill_add_pigment"
     },
     {
-      "id": "writing_added_forge_match",
-      "actionId": "work",
-      "requirements": {
-        "forge": 5,
-        "ingredientforgeb": 1
-      },
-      "effects": {
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_add_reason_passion",
-          "chance": 100
-        }
-      ],
-      "label": "XXX added_forge_match",
-      "description": "XXX added_forge_match",
-      "startdescription": "XXX added_forge_match",
-      "warmup": 1
-    },
-    {
-      "id": "writing_added_heart_match",
-      "actionId": "work",
-      "requirements": {
-        "heart": 5,
-        "ingredientheartb": 1
-      },
-      "effects": {
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_add_reason_passion",
-          "chance": 100
-        }
-      ],
-      "label": "XXX added_heart_match",
-      "description": "XXX added_heart_match",
-      "startdescription": "XXX added_heart_match",
-      "warmup": 1
-    },
-    {
-      "id": "writing_added_edge_match",
-      "actionId": "work",
-      "requirements": {
-        "edge": 5,
-        "ingredientedgeb": 1
-      },
-      "effects": {
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_add_reason_passion",
-          "chance": 100
-        }
-      ],
-      "label": "XXX added_edge_match",
-      "description": "XXX added_edge_match",
-      "startdescription": "XXX added_edge_match",
-      "warmup": 1
-    },
-    {
-      "id": "writing_added_grail_match",
-      "actionId": "work",
-      "requirements": {
-        "grail": 5,
-        "ingredientgrailb": 1
-      },
-      "effects": {
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_add_reason_passion",
-          "chance": 100
-        }
-      ],
-      "label": "XXX added_grail_match",
-      "description": "XXX added_grail_match",
-      "startdescription": "XXX added_grail_match",
-      "warmup": 1
-    },
-    {
-      "id": "writing_added_winter_match",
-      "actionId": "work",
-      "requirements": {
-        "winter": 5,
-        "ingredientwinterb": 1
-      },
-      "effects": {
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_add_reason_passion",
-          "chance": 100
-        }
-      ],
-      "label": "XXX added_winter_match",
-      "description": "XXX added_winter_match",
-      "startdescription": "XXX added_winter_match",
-      "warmup": 1
-    },
-    {
-      "id": "writing_added_lantern_match",
+      "id": "quill_added_lantern_match",
       "actionId": "work",
       "requirements": {
         "lantern": 5,
@@ -291,38 +186,80 @@
       },
       "linked": [
         {
-          "id": "writing_add_reason_passion",
+          "id": "quill_add_reason_passion",
           "chance": 100
         }
       ],
-      "label": "XXX added_lantern_match",
-      "description": "XXX added_lantern_match",
-      "startdescription": "XXX added_lantern_match",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_added_lantern_match",
+      "description": "XXX quill_added_lantern_match",
+      "label": "XXX quill_added_lantern_match"
     },
     {
-      "id": "writing_added_moth_match",
+      "id": "quill_added_winter_match",
       "actionId": "work",
       "requirements": {
-        "moth": 5,
-        "ingredientmothb": 1
+        "winter": 5,
+        "ingredientwinterb": 1
       },
       "effects": {
         "insight": 1
       },
       "linked": [
         {
-          "id": "writing_add_reason_passion",
+          "id": "quill_add_reason_passion",
           "chance": 100
         }
       ],
-      "label": "XXX added_moth_match",
-      "description": "XXX added_moth_match",
-      "startdescription": "XXX added_moth_match",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_added_winter_match",
+      "description": "XXX quill_added_winter_match",
+      "label": "XXX quill_added_winter_match"
     },
     {
-      "id": "writing_added_knock_match",
+      "id": "quill_added_forge_match",
+      "actionId": "work",
+      "requirements": {
+        "forge": 5,
+        "ingredientforgeb": 1
+      },
+      "effects": {
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_add_reason_passion",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_added_forge_match",
+      "description": "XXX quill_added_forge_match",
+      "label": "XXX quill_added_forge_match"
+    },
+    {
+      "id": "quill_added_edge_match",
+      "actionId": "work",
+      "requirements": {
+        "edge": 5,
+        "ingredientedgeb": 1
+      },
+      "effects": {
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_add_reason_passion",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_added_edge_match",
+      "description": "XXX quill_added_edge_match",
+      "label": "XXX quill_added_edge_match"
+    },
+    {
+      "id": "quill_added_knock_match",
       "actionId": "work",
       "requirements": {
         "knock": 5,
@@ -333,34 +270,97 @@
       },
       "linked": [
         {
-          "id": "writing_add_reason_passion",
+          "id": "quill_add_reason_passion",
           "chance": 100
         }
       ],
-      "label": "XXX added_knock_match",
-      "description": "XXX added_knock_match",
-      "startdescription": "XXX added_knock_match",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_added_knock_match",
+      "description": "XXX quill_added_knock_match",
+      "label": "XXX quill_added_knock_match"
     },
     {
-      "id": "writing_added_pigment",
+      "id": "quill_added_heart_match",
+      "actionId": "work",
+      "requirements": {
+        "heart": 5,
+        "ingredientheartb": 1
+      },
+      "effects": {
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_add_reason_passion",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_added_heart_match",
+      "description": "XXX quill_added_heart_match",
+      "label": "XXX quill_added_heart_match"
+    },
+    {
+      "id": "quill_added_grail_match",
+      "actionId": "work",
+      "requirements": {
+        "grail": 5,
+        "ingredientgrailb": 1
+      },
+      "effects": {
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_add_reason_passion",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_added_grail_match",
+      "description": "XXX quill_added_grail_match",
+      "label": "XXX quill_added_grail_match"
+    },
+    {
+      "id": "quill_added_moth_match",
+      "actionId": "work",
+      "requirements": {
+        "moth": 5,
+        "ingredientmothb": 1
+      },
+      "effects": {
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_add_reason_passion",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_added_moth_match",
+      "description": "XXX quill_added_moth_match",
+      "label": "XXX quill_added_moth_match"
+    },
+    {
+      "id": "quill_added_pigment",
       "actionId": "work",
       "requirements": {
         "pigment": 1
       },
       "linked": [
         {
-          "id": "writing_add_reason_passion",
+          "id": "quill_add_reason_passion",
           "chance": 100
         }
       ],
-      "label": "XXX added_pigment",
-      "description": "XXX added_pigment",
-      "startdescription": "XXX added_pigment",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_added_pigment",
+      "description": "XXX quill_added_pigment",
+      "label": "XXX quill_added_pigment"
     },
     {
-      "id": "writing_add_reason_passion",
+      "id": "quill_add_reason_passion",
       "actionId": "work",
       "slots": [
         {
@@ -374,66 +374,66 @@
       ],
       "alternativerecipes": [
         {
-          "id": "writing_added_passion",
+          "id": "quill_added_passion",
           "chance": 100
         },
         {
-          "id": "writing_added_reason",
+          "id": "quill_added_reason",
           "chance": 100
         }
       ],
       "deckeffect": {
-        "writing_results_basic": 1
+        "quill_results_basic": 1
       },
       "linked": [
         {
-          "id": "writing_manuscript_secrethistories",
+          "id": "quill_manuscript_lantern",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_forge",
+          "id": "quill_manuscript_winter",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_heart",
+          "id": "quill_manuscript_forge",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_edge",
+          "id": "quill_manuscript_edge",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_grail",
+          "id": "quill_manuscript_knock",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_winter",
+          "id": "quill_manuscript_secrethistories",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_lantern",
+          "id": "quill_manuscript_heart",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_moth",
+          "id": "quill_manuscript_grail",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_knock",
+          "id": "quill_manuscript_moth",
           "chance": 100
         },
         {
-          "id": "writing_nothing",
+          "id": "quill_nothing",
           "chance": 100
         }
       ],
-      "label": "XXX add_reason_passion",
-      "description": "XXX add_reason_passion",
-      "startdescription": "XXX add_reason_passion",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_add_reason_passion",
+      "description": "XXX quill_add_reason_passion",
+      "label": "XXX quill_add_reason_passion"
     },
     {
-      "id": "writing_added_passion",
+      "id": "quill_added_passion",
       "actionId": "work",
       "requirements": {
         "passion": 1
@@ -442,196 +442,196 @@
         "insight": 1
       },
       "deckeffect": {
-        "writing_results_passion": 1
+        "quill_results_passion": 1
       },
       "linked": [
         {
-          "id": "writing_secret_secrethistories",
+          "id": "quill_secret_lantern",
           "chance": 85
         },
         {
-          "id": "writing_secret_forge",
+          "id": "quill_secret_winter",
           "chance": 85
         },
         {
-          "id": "writing_secret_heart",
+          "id": "quill_secret_forge",
           "chance": 85
         },
         {
-          "id": "writing_secret_edge",
+          "id": "quill_secret_edge",
           "chance": 85
         },
         {
-          "id": "writing_secret_grail",
+          "id": "quill_secret_knock",
           "chance": 85
         },
         {
-          "id": "writing_secret_winter",
+          "id": "quill_secret_secrethistories",
           "chance": 85
         },
         {
-          "id": "writing_secret_lantern",
+          "id": "quill_secret_heart",
           "chance": 85
         },
         {
-          "id": "writing_secret_moth",
+          "id": "quill_secret_grail",
           "chance": 85
         },
         {
-          "id": "writing_secret_knock",
+          "id": "quill_secret_moth",
           "chance": 85
         },
         {
-          "id": "writing_almanac_forge",
+          "id": "quill_almanac_lantern",
           "chance": 100
         },
         {
-          "id": "writing_almanac_heart",
+          "id": "quill_almanac_winter",
           "chance": 100
         },
         {
-          "id": "writing_almanac_edge",
+          "id": "quill_almanac_forge",
           "chance": 100
         },
         {
-          "id": "writing_almanac_grail",
+          "id": "quill_almanac_edge",
           "chance": 100
         },
         {
-          "id": "writing_almanac_winter",
+          "id": "quill_almanac_knock",
           "chance": 100
         },
         {
-          "id": "writing_almanac_lantern",
+          "id": "quill_almanac_heart",
           "chance": 100
         },
         {
-          "id": "writing_almanac_moth",
+          "id": "quill_almanac_grail",
           "chance": 100
         },
         {
-          "id": "writing_almanac_knock",
+          "id": "quill_almanac_moth",
           "chance": 100
         },
         {
-          "id": "writing_book_forge_subvert",
-          "comments": "subverts lantern",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_heart_subvert",
-          "comments": "subverts winter",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_edge_subvert",
-          "comments": "subverts forge",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_grail_subvert",
-          "comments": "subverts heart",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_winter_subvert",
-          "comments": "subverts edge",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_lantern_subvert",
+          "id": "quill_book_lantern_subvert",
           "comments": "subverts moth",
           "chance": 100
         },
         {
-          "id": "writing_book_moth_subvert",
+          "id": "quill_book_winter_subvert",
+          "comments": "subverts edge",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_forge_subvert",
+          "comments": "subverts lantern",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_edge_subvert",
+          "comments": "subverts forge",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_heart_subvert",
+          "comments": "subverts winter",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_grail_subvert",
+          "comments": "subverts heart",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_moth_subvert",
           "comments": "subverts grail",
           "chance": 100
         },
         {
-          "id": "writing_book_secrethistories",
+          "id": "quill_book_lantern",
           "chance": 100
         },
         {
-          "id": "writing_book_forge",
+          "id": "quill_book_winter",
           "chance": 100
         },
         {
-          "id": "writing_book_heart",
+          "id": "quill_book_forge",
           "chance": 100
         },
         {
-          "id": "writing_book_edge",
+          "id": "quill_book_edge",
           "chance": 100
         },
         {
-          "id": "writing_book_grail",
+          "id": "quill_book_knock",
           "chance": 100
         },
         {
-          "id": "writing_book_winter",
+          "id": "quill_book_secrethistories",
           "chance": 100
         },
         {
-          "id": "writing_book_lantern",
+          "id": "quill_book_heart",
           "chance": 100
         },
         {
-          "id": "writing_book_moth",
+          "id": "quill_book_grail",
           "chance": 100
         },
         {
-          "id": "writing_book_knock",
+          "id": "quill_book_moth",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_secrethistories",
+          "id": "quill_manuscript_lantern",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_forge",
+          "id": "quill_manuscript_winter",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_heart",
+          "id": "quill_manuscript_forge",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_edge",
+          "id": "quill_manuscript_edge",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_grail",
+          "id": "quill_manuscript_knock",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_winter",
+          "id": "quill_manuscript_secrethistories",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_lantern",
+          "id": "quill_manuscript_heart",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_moth",
+          "id": "quill_manuscript_grail",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_knock",
+          "id": "quill_manuscript_moth",
           "chance": 100
         },
         {
-          "id": "writing_nothing",
+          "id": "quill_nothing",
           "chance": 100
         }
       ],
-      "label": "XXX added_passion",
-      "description": "XXX added_passion",
-      "startdescription": "XXX added_passion",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_added_passion",
+      "description": "XXX quill_added_passion",
+      "label": "XXX quill_added_passion"
     },
     {
-      "id": "writing_added_reason",
+      "id": "quill_added_reason",
       "actionId": "work",
       "requirements": {
         "reason": 1
@@ -640,364 +640,196 @@
         "insight": 1
       },
       "deckeffect": {
-        "writing_results_reason": 1
+        "quill_results_reason": 1
       },
       "linked": [
         {
-          "id": "writing_secret_secrethistories",
+          "id": "quill_secret_lantern",
           "chance": 85
         },
         {
-          "id": "writing_secret_forge",
+          "id": "quill_secret_winter",
           "chance": 85
         },
         {
-          "id": "writing_secret_heart",
+          "id": "quill_secret_forge",
           "chance": 85
         },
         {
-          "id": "writing_secret_edge",
+          "id": "quill_secret_edge",
           "chance": 85
         },
         {
-          "id": "writing_secret_grail",
+          "id": "quill_secret_knock",
           "chance": 85
         },
         {
-          "id": "writing_secret_winter",
+          "id": "quill_secret_secrethistories",
           "chance": 85
         },
         {
-          "id": "writing_secret_lantern",
+          "id": "quill_secret_heart",
           "chance": 85
         },
         {
-          "id": "writing_secret_moth",
+          "id": "quill_secret_grail",
           "chance": 85
         },
         {
-          "id": "writing_secret_knock",
+          "id": "quill_secret_moth",
           "chance": 85
         },
         {
-          "id": "writing_almanac_forge",
+          "id": "quill_almanac_lantern",
           "chance": 100
         },
         {
-          "id": "writing_almanac_heart",
+          "id": "quill_almanac_winter",
           "chance": 100
         },
         {
-          "id": "writing_almanac_edge",
+          "id": "quill_almanac_forge",
           "chance": 100
         },
         {
-          "id": "writing_almanac_grail",
+          "id": "quill_almanac_edge",
           "chance": 100
         },
         {
-          "id": "writing_almanac_winter",
+          "id": "quill_almanac_knock",
           "chance": 100
         },
         {
-          "id": "writing_almanac_lantern",
+          "id": "quill_almanac_heart",
           "chance": 100
         },
         {
-          "id": "writing_almanac_moth",
+          "id": "quill_almanac_grail",
           "chance": 100
         },
         {
-          "id": "writing_almanac_knock",
+          "id": "quill_almanac_moth",
           "chance": 100
         },
         {
-          "id": "writing_book_forge_subvert",
-          "comments": "subverts lantern",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_heart_subvert",
-          "comments": "subverts winter",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_edge_subvert",
-          "comments": "subverts forge",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_grail_subvert",
-          "comments": "subverts heart",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_winter_subvert",
-          "comments": "subverts edge",
-          "chance": 100
-        },
-        {
-          "id": "writing_book_lantern_subvert",
+          "id": "quill_book_lantern_subvert",
           "comments": "subverts moth",
           "chance": 100
         },
         {
-          "id": "writing_book_moth_subvert",
+          "id": "quill_book_winter_subvert",
+          "comments": "subverts edge",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_forge_subvert",
+          "comments": "subverts lantern",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_edge_subvert",
+          "comments": "subverts forge",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_heart_subvert",
+          "comments": "subverts winter",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_grail_subvert",
+          "comments": "subverts heart",
+          "chance": 100
+        },
+        {
+          "id": "quill_book_moth_subvert",
           "comments": "subverts grail",
           "chance": 100
         },
         {
-          "id": "writing_book_secrethistories",
+          "id": "quill_book_lantern",
           "chance": 100
         },
         {
-          "id": "writing_book_forge",
+          "id": "quill_book_winter",
           "chance": 100
         },
         {
-          "id": "writing_book_heart",
+          "id": "quill_book_forge",
           "chance": 100
         },
         {
-          "id": "writing_book_edge",
+          "id": "quill_book_edge",
           "chance": 100
         },
         {
-          "id": "writing_book_grail",
+          "id": "quill_book_knock",
           "chance": 100
         },
         {
-          "id": "writing_book_winter",
+          "id": "quill_book_secrethistories",
           "chance": 100
         },
         {
-          "id": "writing_book_lantern",
+          "id": "quill_book_heart",
           "chance": 100
         },
         {
-          "id": "writing_book_moth",
+          "id": "quill_book_grail",
           "chance": 100
         },
         {
-          "id": "writing_book_knock",
+          "id": "quill_book_moth",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_secrethistories",
+          "id": "quill_manuscript_lantern",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_forge",
+          "id": "quill_manuscript_winter",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_heart",
+          "id": "quill_manuscript_forge",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_edge",
+          "id": "quill_manuscript_edge",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_grail",
+          "id": "quill_manuscript_knock",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_winter",
+          "id": "quill_manuscript_secrethistories",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_lantern",
+          "id": "quill_manuscript_heart",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_moth",
+          "id": "quill_manuscript_grail",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_knock",
+          "id": "quill_manuscript_moth",
           "chance": 100
         },
         {
-          "id": "writing_nothing",
-          "chance": 100
-        }
-      ],
-      "label": "XXX added_reason",
-      "description": "XXX added_reason",
-      "startdescription": "XXX added_reason",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_secrethistories",
-      "actionId": "work",
-      "requirements": {
-        "secrethistories": 6,
-        "pigment": 1,
-        "reason": 1,
-        "lore": -1
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_secret_secrethistories_c",
-          "chance": 60
-        },
-        {
-          "id": "writing_secret_secrethistories_b",
-          "chance": 80
-        },
-        {
-          "id": "writing_secret_secrethistories_a",
+          "id": "quill_nothing",
           "chance": 100
         }
       ],
-      "label": "XXX secret_secrethistories",
-      "description": "XXX secret_secrethistories",
-      "startdescription": "XXX secret_secrethistories",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_added_reason",
+      "description": "XXX quill_added_reason",
+      "label": "XXX quill_added_reason"
     },
     {
-      "id": "writing_secret_forge",
-      "actionId": "work",
-      "requirements": {
-        "forge": 6,
-        "pigment": 1,
-        "reason": 1,
-        "lore": -1
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_secret_forge_c",
-          "chance": 60
-        },
-        {
-          "id": "writing_secret_forge_b",
-          "chance": 80
-        },
-        {
-          "id": "writing_secret_forge_a",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_forge",
-      "description": "XXX secret_forge",
-      "startdescription": "XXX secret_forge",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_heart",
-      "actionId": "work",
-      "requirements": {
-        "heart": 6,
-        "pigment": 1,
-        "reason": 1,
-        "lore": -1
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_secret_heart_c",
-          "chance": 60
-        },
-        {
-          "id": "writing_secret_heart_b",
-          "chance": 80
-        },
-        {
-          "id": "writing_secret_heart_a",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_heart",
-      "description": "XXX secret_heart",
-      "startdescription": "XXX secret_heart",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_edge",
-      "actionId": "work",
-      "requirements": {
-        "edge": 6,
-        "pigment": 1,
-        "reason": 1,
-        "lore": -1
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_secret_edge_c",
-          "chance": 60
-        },
-        {
-          "id": "writing_secret_edge_b",
-          "chance": 80
-        },
-        {
-          "id": "writing_secret_edge_a",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_edge",
-      "description": "XXX secret_edge",
-      "startdescription": "XXX secret_edge",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_grail",
-      "actionId": "work",
-      "requirements": {
-        "grail": 6,
-        "pigment": 1,
-        "reason": 1,
-        "lore": -1
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_secret_grail_c",
-          "chance": 60
-        },
-        {
-          "id": "writing_secret_grail_b",
-          "chance": 80
-        },
-        {
-          "id": "writing_secret_grail_a",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_grail",
-      "description": "XXX secret_grail",
-      "startdescription": "XXX secret_grail",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_winter",
-      "actionId": "work",
-      "requirements": {
-        "winter": 6,
-        "pigment": 1,
-        "reason": 1,
-        "lore": -1
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_secret_winter_c",
-          "chance": 60
-        },
-        {
-          "id": "writing_secret_winter_b",
-          "chance": 80
-        },
-        {
-          "id": "writing_secret_winter_a",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_winter",
-      "description": "XXX secret_winter",
-      "startdescription": "XXX secret_winter",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_lantern",
+      "id": "quill_secret_lantern",
       "actionId": "work",
       "requirements": {
         "lantern": 6,
@@ -1007,53 +839,109 @@
       },
       "alternativerecipes": [
         {
-          "id": "writing_secret_lantern_c",
+          "id": "quill_secret_lantern_c",
           "chance": 60
         },
         {
-          "id": "writing_secret_lantern_b",
+          "id": "quill_secret_lantern_b",
           "chance": 80
         },
         {
-          "id": "writing_secret_lantern_a",
+          "id": "quill_secret_lantern_a",
           "chance": 100
         }
       ],
-      "label": "XXX secret_lantern",
-      "description": "XXX secret_lantern",
-      "startdescription": "XXX secret_lantern",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_lantern",
+      "description": "XXX quill_secret_lantern",
+      "label": "XXX quill_secret_lantern"
     },
     {
-      "id": "writing_secret_moth",
+      "id": "quill_secret_winter",
       "actionId": "work",
       "requirements": {
-        "moth": 6,
+        "winter": 6,
         "pigment": 1,
         "reason": 1,
         "lore": -1
       },
       "alternativerecipes": [
         {
-          "id": "writing_secret_moth_c",
+          "id": "quill_secret_winter_c",
           "chance": 60
         },
         {
-          "id": "writing_secret_moth_b",
+          "id": "quill_secret_winter_b",
           "chance": 80
         },
         {
-          "id": "writing_secret_moth_a",
+          "id": "quill_secret_winter_a",
           "chance": 100
         }
       ],
-      "label": "XXX secret_moth",
-      "description": "XXX secret_moth",
-      "startdescription": "XXX secret_moth",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_winter",
+      "description": "XXX quill_secret_winter",
+      "label": "XXX quill_secret_winter"
     },
     {
-      "id": "writing_secret_knock",
+      "id": "quill_secret_forge",
+      "actionId": "work",
+      "requirements": {
+        "forge": 6,
+        "pigment": 1,
+        "reason": 1,
+        "lore": -1
+      },
+      "alternativerecipes": [
+        {
+          "id": "quill_secret_forge_c",
+          "chance": 60
+        },
+        {
+          "id": "quill_secret_forge_b",
+          "chance": 80
+        },
+        {
+          "id": "quill_secret_forge_a",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_forge",
+      "description": "XXX quill_secret_forge",
+      "label": "XXX quill_secret_forge"
+    },
+    {
+      "id": "quill_secret_edge",
+      "actionId": "work",
+      "requirements": {
+        "edge": 6,
+        "pigment": 1,
+        "reason": 1,
+        "lore": -1
+      },
+      "alternativerecipes": [
+        {
+          "id": "quill_secret_edge_c",
+          "chance": 60
+        },
+        {
+          "id": "quill_secret_edge_b",
+          "chance": 80
+        },
+        {
+          "id": "quill_secret_edge_a",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_edge",
+      "description": "XXX quill_secret_edge",
+      "label": "XXX quill_secret_edge"
+    },
+    {
+      "id": "quill_secret_knock",
       "actionId": "work",
       "requirements": {
         "knock": 6,
@@ -1063,157 +951,137 @@
       },
       "alternativerecipes": [
         {
-          "id": "writing_secret_knock_c",
+          "id": "quill_secret_knock_c",
           "chance": 60
         },
         {
-          "id": "writing_secret_knock_b",
+          "id": "quill_secret_knock_b",
           "chance": 80
         },
         {
-          "id": "writing_secret_knock_a",
+          "id": "quill_secret_knock_a",
           "chance": 100
         }
       ],
-      "label": "XXX secret_knock",
-      "description": "XXX secret_knock",
-      "startdescription": "XXX secret_knock",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_knock",
+      "description": "XXX quill_secret_knock",
+      "label": "XXX quill_secret_knock"
     },
     {
-      "id": "writing_secret_secrethistories_c",
+      "id": "quill_secret_secrethistories",
       "actionId": "work",
       "requirements": {
-        "secrethistories": 16,
-        "writingskill": 3
+        "secrethistories": 6,
+        "pigment": 1,
+        "reason": 1,
+        "lore": -1
       },
-      "effects": {
-        "fragmentsecrethistoriesc": 1,
-        "insight": 2
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_secret_secrethistories_c",
+          "chance": 60
+        },
+        {
+          "id": "quill_secret_secrethistories_b",
+          "chance": 80
+        },
+        {
+          "id": "quill_secret_secrethistories_a",
           "chance": 100
         }
       ],
-      "label": "XXX secret_secrethistories_c",
-      "description": "XXX secret_secrethistories_c",
-      "startdescription": "XXX secret_secrethistories_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_secrethistories",
+      "description": "XXX quill_secret_secrethistories",
+      "label": "XXX quill_secret_secrethistories"
     },
     {
-      "id": "writing_secret_forge_c",
+      "id": "quill_secret_heart",
       "actionId": "work",
       "requirements": {
-        "forge": 16,
-        "writingskill": 3
+        "heart": 6,
+        "pigment": 1,
+        "reason": 1,
+        "lore": -1
       },
-      "effects": {
-        "fragmentforgec": 1,
-        "insight": 2
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_secret_heart_c",
+          "chance": 60
+        },
+        {
+          "id": "quill_secret_heart_b",
+          "chance": 80
+        },
+        {
+          "id": "quill_secret_heart_a",
           "chance": 100
         }
       ],
-      "label": "XXX secret_forge_c",
-      "description": "XXX secret_forge_c",
-      "startdescription": "XXX secret_forge_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_heart",
+      "description": "XXX quill_secret_heart",
+      "label": "XXX quill_secret_heart"
     },
     {
-      "id": "writing_secret_heart_c",
+      "id": "quill_secret_grail",
       "actionId": "work",
       "requirements": {
-        "heart": 16,
-        "writingskill": 3
+        "grail": 6,
+        "pigment": 1,
+        "reason": 1,
+        "lore": -1
       },
-      "effects": {
-        "fragmentheartc": 1,
-        "insight": 2
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_secret_grail_c",
+          "chance": 60
+        },
+        {
+          "id": "quill_secret_grail_b",
+          "chance": 80
+        },
+        {
+          "id": "quill_secret_grail_a",
           "chance": 100
         }
       ],
-      "label": "XXX secret_heart_c",
-      "description": "XXX secret_heart_c",
-      "startdescription": "XXX secret_heart_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_grail",
+      "description": "XXX quill_secret_grail",
+      "label": "XXX quill_secret_grail"
     },
     {
-      "id": "writing_secret_edge_c",
+      "id": "quill_secret_moth",
       "actionId": "work",
       "requirements": {
-        "edge": 16,
-        "writingskill": 3
+        "moth": 6,
+        "pigment": 1,
+        "reason": 1,
+        "lore": -1
       },
-      "effects": {
-        "fragmentedgec": 1,
-        "insight": 2
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_secret_moth_c",
+          "chance": 60
+        },
+        {
+          "id": "quill_secret_moth_b",
+          "chance": 80
+        },
+        {
+          "id": "quill_secret_moth_a",
           "chance": 100
         }
       ],
-      "label": "XXX secret_edge_c",
-      "description": "XXX secret_edge_c",
-      "startdescription": "XXX secret_edge_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_moth",
+      "description": "XXX quill_secret_moth",
+      "label": "XXX quill_secret_moth"
     },
     {
-      "id": "writing_secret_grail_c",
-      "actionId": "work",
-      "requirements": {
-        "grail": 16,
-        "writingskill": 3
-      },
-      "effects": {
-        "fragmentgrailc": 1,
-        "insight": 2
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_grail_c",
-      "description": "XXX secret_grail_c",
-      "startdescription": "XXX secret_grail_c",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_winter_c",
-      "actionId": "work",
-      "requirements": {
-        "winter": 16,
-        "writingskill": 3
-      },
-      "effects": {
-        "fragmentwinterc": 1,
-        "insight": 2
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_winter_c",
-      "description": "XXX secret_winter_c",
-      "startdescription": "XXX secret_winter_c",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_lantern_c",
+      "id": "quill_secret_lantern_c",
       "actionId": "work",
       "requirements": {
         "lantern": 16,
@@ -1225,39 +1093,83 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_lantern_c",
-      "description": "XXX secret_lantern_c",
-      "startdescription": "XXX secret_lantern_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_lantern_c",
+      "description": "XXX quill_secret_lantern_c",
+      "label": "XXX quill_secret_lantern_c"
     },
     {
-      "id": "writing_secret_moth_c",
+      "id": "quill_secret_winter_c",
       "actionId": "work",
       "requirements": {
-        "moth": 16,
+        "winter": 16,
         "writingskill": 3
       },
       "effects": {
-        "fragmentmothc": 1,
+        "fragmentwinterc": 1,
         "insight": 2
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_moth_c",
-      "description": "XXX secret_moth_c",
-      "startdescription": "XXX secret_moth_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_winter_c",
+      "description": "XXX quill_secret_winter_c",
+      "label": "XXX quill_secret_winter_c"
     },
     {
-      "id": "writing_secret_knock_c",
+      "id": "quill_secret_forge_c",
+      "actionId": "work",
+      "requirements": {
+        "forge": 16,
+        "writingskill": 3
+      },
+      "effects": {
+        "fragmentforgec": 1,
+        "insight": 2
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_forge_c",
+      "description": "XXX quill_secret_forge_c",
+      "label": "XXX quill_secret_forge_c"
+    },
+    {
+      "id": "quill_secret_edge_c",
+      "actionId": "work",
+      "requirements": {
+        "edge": 16,
+        "writingskill": 3
+      },
+      "effects": {
+        "fragmentedgec": 1,
+        "insight": 2
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_edge_c",
+      "description": "XXX quill_secret_edge_c",
+      "label": "XXX quill_secret_edge_c"
+    },
+    {
+      "id": "quill_secret_knock_c",
       "actionId": "work",
       "requirements": {
         "knock": 16,
@@ -1269,149 +1181,105 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_knock_c",
-      "description": "XXX secret_knock_c",
-      "startdescription": "XXX secret_knock_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_knock_c",
+      "description": "XXX quill_secret_knock_c",
+      "label": "XXX quill_secret_knock_c"
     },
     {
-      "id": "writing_secret_secrethistories_b",
+      "id": "quill_secret_secrethistories_c",
       "actionId": "work",
       "requirements": {
-        "secrethistories": 10,
-        "writingskill": 2
+        "secrethistories": 16,
+        "writingskill": 3
       },
       "effects": {
-        "fragmentsecrethistoriesb": 1,
-        "insight": 1
+        "fragmentsecrethistoriesc": 1,
+        "insight": 2
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_secrethistories_b",
-      "description": "XXX secret_secrethistories_b",
-      "startdescription": "XXX secret_secrethistories_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_secrethistories_c",
+      "description": "XXX quill_secret_secrethistories_c",
+      "label": "XXX quill_secret_secrethistories_c"
     },
     {
-      "id": "writing_secret_forge_b",
+      "id": "quill_secret_heart_c",
       "actionId": "work",
       "requirements": {
-        "forge": 10,
-        "writingskill": 2
+        "heart": 16,
+        "writingskill": 3
       },
       "effects": {
-        "fragmentforgeb": 1,
-        "insight": 1
+        "fragmentheartc": 1,
+        "insight": 2
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_forge_b",
-      "description": "XXX secret_forge_b",
-      "startdescription": "XXX secret_forge_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_heart_c",
+      "description": "XXX quill_secret_heart_c",
+      "label": "XXX quill_secret_heart_c"
     },
     {
-      "id": "writing_secret_heart_b",
+      "id": "quill_secret_grail_c",
       "actionId": "work",
       "requirements": {
-        "heart": 10,
-        "writingskill": 2
+        "grail": 16,
+        "writingskill": 3
       },
       "effects": {
-        "fragmentheartb": 1,
-        "insight": 1
+        "fragmentgrailc": 1,
+        "insight": 2
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_heart_b",
-      "description": "XXX secret_heart_b",
-      "startdescription": "XXX secret_heart_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_grail_c",
+      "description": "XXX quill_secret_grail_c",
+      "label": "XXX quill_secret_grail_c"
     },
     {
-      "id": "writing_secret_edge_b",
+      "id": "quill_secret_moth_c",
       "actionId": "work",
       "requirements": {
-        "edge": 10,
-        "writingskill": 2
+        "moth": 16,
+        "writingskill": 3
       },
       "effects": {
-        "fragmentedgeb": 1,
-        "insight": 1
+        "fragmentmothc": 1,
+        "insight": 2
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_edge_b",
-      "description": "XXX secret_edge_b",
-      "startdescription": "XXX secret_edge_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_moth_c",
+      "description": "XXX quill_secret_moth_c",
+      "label": "XXX quill_secret_moth_c"
     },
     {
-      "id": "writing_secret_grail_b",
-      "actionId": "work",
-      "requirements": {
-        "grail": 10,
-        "writingskill": 2
-      },
-      "effects": {
-        "fragmentgrailb": 1,
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_grail_b",
-      "description": "XXX secret_grail_b",
-      "startdescription": "XXX secret_grail_b",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_winter_b",
-      "actionId": "work",
-      "requirements": {
-        "winter": 10,
-        "writingskill": 2
-      },
-      "effects": {
-        "fragmentwinterb": 1,
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_winter_b",
-      "description": "XXX secret_winter_b",
-      "startdescription": "XXX secret_winter_b",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_lantern_b",
+      "id": "quill_secret_lantern_b",
       "actionId": "work",
       "requirements": {
         "lantern": 10,
@@ -1423,39 +1291,83 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_lantern_b",
-      "description": "XXX secret_lantern_b",
-      "startdescription": "XXX secret_lantern_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_lantern_b",
+      "description": "XXX quill_secret_lantern_b",
+      "label": "XXX quill_secret_lantern_b"
     },
     {
-      "id": "writing_secret_moth_b",
+      "id": "quill_secret_winter_b",
       "actionId": "work",
       "requirements": {
-        "moth": 10,
+        "winter": 10,
         "writingskill": 2
       },
       "effects": {
-        "fragmentmothb": 1,
+        "fragmentwinterb": 1,
         "insight": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_moth_b",
-      "description": "XXX secret_moth_b",
-      "startdescription": "XXX secret_moth_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_winter_b",
+      "description": "XXX quill_secret_winter_b",
+      "label": "XXX quill_secret_winter_b"
     },
     {
-      "id": "writing_secret_knock_b",
+      "id": "quill_secret_forge_b",
+      "actionId": "work",
+      "requirements": {
+        "forge": 10,
+        "writingskill": 2
+      },
+      "effects": {
+        "fragmentforgeb": 1,
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_forge_b",
+      "description": "XXX quill_secret_forge_b",
+      "label": "XXX quill_secret_forge_b"
+    },
+    {
+      "id": "quill_secret_edge_b",
+      "actionId": "work",
+      "requirements": {
+        "edge": 10,
+        "writingskill": 2
+      },
+      "effects": {
+        "fragmentedgeb": 1,
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_edge_b",
+      "description": "XXX quill_secret_edge_b",
+      "label": "XXX quill_secret_edge_b"
+    },
+    {
+      "id": "quill_secret_knock_b",
       "actionId": "work",
       "requirements": {
         "knock": 10,
@@ -1467,137 +1379,105 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_knock_b",
-      "description": "XXX secret_knock_b",
-      "startdescription": "XXX secret_knock_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_knock_b",
+      "description": "XXX quill_secret_knock_b",
+      "label": "XXX quill_secret_knock_b"
     },
     {
-      "id": "writing_secret_secrethistories_a",
+      "id": "quill_secret_secrethistories_b",
       "actionId": "work",
       "requirements": {
-        "secrethistories": 6
+        "secrethistories": 10,
+        "writingskill": 2
       },
       "effects": {
-        "fragmentsecrethistories": 1
+        "fragmentsecrethistoriesb": 1,
+        "insight": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_secrethistories_a",
-      "description": "XXX secret_secrethistories_a",
-      "startdescription": "XXX secret_secrethistories_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_secrethistories_b",
+      "description": "XXX quill_secret_secrethistories_b",
+      "label": "XXX quill_secret_secrethistories_b"
     },
     {
-      "id": "writing_secret_forge_a",
+      "id": "quill_secret_heart_b",
       "actionId": "work",
       "requirements": {
-        "forge": 6
+        "heart": 10,
+        "writingskill": 2
       },
       "effects": {
-        "fragmentforge": 1
+        "fragmentheartb": 1,
+        "insight": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_forge_a",
-      "description": "XXX secret_forge_a",
-      "startdescription": "XXX secret_forge_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_heart_b",
+      "description": "XXX quill_secret_heart_b",
+      "label": "XXX quill_secret_heart_b"
     },
     {
-      "id": "writing_secret_heart_a",
+      "id": "quill_secret_grail_b",
       "actionId": "work",
       "requirements": {
-        "heart": 6
+        "grail": 10,
+        "writingskill": 2
       },
       "effects": {
-        "fragmentheart": 1
+        "fragmentgrailb": 1,
+        "insight": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_heart_a",
-      "description": "XXX secret_heart_a",
-      "startdescription": "XXX secret_heart_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_grail_b",
+      "description": "XXX quill_secret_grail_b",
+      "label": "XXX quill_secret_grail_b"
     },
     {
-      "id": "writing_secret_edge_a",
+      "id": "quill_secret_moth_b",
       "actionId": "work",
       "requirements": {
-        "edge": 6
+        "moth": 10,
+        "writingskill": 2
       },
       "effects": {
-        "fragmentedge": 1
+        "fragmentmothb": 1,
+        "insight": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_edge_a",
-      "description": "XXX secret_edge_a",
-      "startdescription": "XXX secret_edge_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_moth_b",
+      "description": "XXX quill_secret_moth_b",
+      "label": "XXX quill_secret_moth_b"
     },
     {
-      "id": "writing_secret_grail_a",
-      "actionId": "work",
-      "requirements": {
-        "grail": 6
-      },
-      "effects": {
-        "fragmentgrail": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_grail_a",
-      "description": "XXX secret_grail_a",
-      "startdescription": "XXX secret_grail_a",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_winter_a",
-      "actionId": "work",
-      "requirements": {
-        "winter": 6
-      },
-      "effects": {
-        "fragmentwinter": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX secret_winter_a",
-      "description": "XXX secret_winter_a",
-      "startdescription": "XXX secret_winter_a",
-      "warmup": 1
-    },
-    {
-      "id": "writing_secret_lantern_a",
+      "id": "quill_secret_lantern_a",
       "actionId": "work",
       "requirements": {
         "lantern": 6
@@ -1607,37 +1487,77 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_lantern_a",
-      "description": "XXX secret_lantern_a",
-      "startdescription": "XXX secret_lantern_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_lantern_a",
+      "description": "XXX quill_secret_lantern_a",
+      "label": "XXX quill_secret_lantern_a"
     },
     {
-      "id": "writing_secret_moth_a",
+      "id": "quill_secret_winter_a",
       "actionId": "work",
       "requirements": {
-        "moth": 6
+        "winter": 6
       },
       "effects": {
-        "fragmentmoth": 1
+        "fragmentwinter": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_moth_a",
-      "description": "XXX secret_moth_a",
-      "startdescription": "XXX secret_moth_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_winter_a",
+      "description": "XXX quill_secret_winter_a",
+      "label": "XXX quill_secret_winter_a"
     },
     {
-      "id": "writing_secret_knock_a",
+      "id": "quill_secret_forge_a",
+      "actionId": "work",
+      "requirements": {
+        "forge": 6
+      },
+      "effects": {
+        "fragmentforge": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_forge_a",
+      "description": "XXX quill_secret_forge_a",
+      "label": "XXX quill_secret_forge_a"
+    },
+    {
+      "id": "quill_secret_edge_a",
+      "actionId": "work",
+      "requirements": {
+        "edge": 6
+      },
+      "effects": {
+        "fragmentedge": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_edge_a",
+      "description": "XXX quill_secret_edge_a",
+      "label": "XXX quill_secret_edge_a"
+    },
+    {
+      "id": "quill_secret_knock_a",
       "actionId": "work",
       "requirements": {
         "knock": 6
@@ -1647,132 +1567,97 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX secret_knock_a",
-      "description": "XXX secret_knock_a",
-      "startdescription": "XXX secret_knock_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_knock_a",
+      "description": "XXX quill_secret_knock_a",
+      "label": "XXX quill_secret_knock_a"
     },
     {
-      "id": "writing_almanac_forge",
+      "id": "quill_secret_secrethistories_a",
       "actionId": "work",
       "requirements": {
-        "forge": 14,
-        "reason": 1,
-        "writingskill": 3
+        "secrethistories": 6
       },
       "effects": {
-        "insight": 1,
-        "writing_almanac_forge": 1
+        "fragmentsecrethistories": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX almanac_forge",
-      "description": "XXX almanac_forge",
-      "startdescription": "XXX almanac_forge",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_secrethistories_a",
+      "description": "XXX quill_secret_secrethistories_a",
+      "label": "XXX quill_secret_secrethistories_a"
     },
     {
-      "id": "writing_almanac_heart",
+      "id": "quill_secret_heart_a",
       "actionId": "work",
       "requirements": {
-        "heart": 14,
-        "reason": 1,
-        "writingskill": 3
+        "heart": 6
       },
       "effects": {
-        "insight": 1,
-        "writing_almanac_heart": 1
+        "fragmentheart": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX almanac_heart",
-      "description": "XXX almanac_heart",
-      "startdescription": "XXX almanac_heart",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_heart_a",
+      "description": "XXX quill_secret_heart_a",
+      "label": "XXX quill_secret_heart_a"
     },
     {
-      "id": "writing_almanac_edge",
+      "id": "quill_secret_grail_a",
       "actionId": "work",
       "requirements": {
-        "edge": 14,
-        "reason": 1,
-        "writingskill": 3
+        "grail": 6
       },
       "effects": {
-        "insight": 1,
-        "writing_almanac_edge": 1
+        "fragmentgrail": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX almanac_edge",
-      "description": "XXX almanac_edge",
-      "startdescription": "XXX almanac_edge",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_grail_a",
+      "description": "XXX quill_secret_grail_a",
+      "label": "XXX quill_secret_grail_a"
     },
     {
-      "id": "writing_almanac_grail",
+      "id": "quill_secret_moth_a",
       "actionId": "work",
       "requirements": {
-        "grail": 14,
-        "reason": 1,
-        "writingskill": 3
+        "moth": 6
       },
       "effects": {
-        "insight": 1,
-        "writing_almanac_grail": 1
+        "fragmentmoth": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX almanac_grail",
-      "description": "XXX almanac_grail",
-      "startdescription": "XXX almanac_grail",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_secret_moth_a",
+      "description": "XXX quill_secret_moth_a",
+      "label": "XXX quill_secret_moth_a"
     },
     {
-      "id": "writing_almanac_winter",
-      "actionId": "work",
-      "requirements": {
-        "winter": 14,
-        "reason": 1,
-        "writingskill": 3
-      },
-      "effects": {
-        "insight": 1,
-        "writing_almanac_winter": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX almanac_winter",
-      "description": "XXX almanac_winter",
-      "startdescription": "XXX almanac_winter",
-      "warmup": 1
-    },
-    {
-      "id": "writing_almanac_lantern",
+      "id": "quill_almanac_lantern",
       "actionId": "work",
       "requirements": {
         "lantern": 14,
@@ -1781,44 +1666,90 @@
       },
       "effects": {
         "insight": 1,
-        "writing_almanac_lantern": 1
+        "quill_almanac_lantern": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX almanac_lantern",
-      "description": "XXX almanac_lantern",
-      "startdescription": "XXX almanac_lantern",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_lantern",
+      "description": "XXX quill_almanac_lantern",
+      "label": "XXX quill_almanac_lantern"
     },
     {
-      "id": "writing_almanac_moth",
+      "id": "quill_almanac_winter",
       "actionId": "work",
       "requirements": {
-        "moth": 14,
+        "winter": 14,
         "reason": 1,
         "writingskill": 3
       },
       "effects": {
         "insight": 1,
-        "writing_almanac_moth": 1
+        "quill_almanac_winter": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX almanac_moth",
-      "description": "XXX almanac_moth",
-      "startdescription": "XXX almanac_moth",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_winter",
+      "description": "XXX quill_almanac_winter",
+      "label": "XXX quill_almanac_winter"
     },
     {
-      "id": "writing_almanac_knock",
+      "id": "quill_almanac_forge",
+      "actionId": "work",
+      "requirements": {
+        "forge": 14,
+        "reason": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "insight": 1,
+        "quill_almanac_forge": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_forge",
+      "description": "XXX quill_almanac_forge",
+      "label": "XXX quill_almanac_forge"
+    },
+    {
+      "id": "quill_almanac_edge",
+      "actionId": "work",
+      "requirements": {
+        "edge": 14,
+        "reason": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "insight": 1,
+        "quill_almanac_edge": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_edge",
+      "description": "XXX quill_almanac_edge",
+      "label": "XXX quill_almanac_edge"
+    },
+    {
+      "id": "quill_almanac_knock",
       "actionId": "work",
       "requirements": {
         "knock": 14,
@@ -1827,141 +1758,90 @@
       },
       "effects": {
         "insight": 1,
-        "writing_almanac_knock": 1
+        "quill_almanac_knock": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX almanac_knock",
-      "description": "XXX almanac_knock",
-      "startdescription": "XXX almanac_knock",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_knock",
+      "description": "XXX quill_almanac_knock",
+      "label": "XXX quill_almanac_knock"
     },
     {
-      "id": "writing_book_forge_subvert",
+      "id": "quill_almanac_heart",
       "actionId": "work",
       "requirements": {
-        "lantern": 8,
-        "forge": 4,
-        "passion": 1,
+        "heart": 14,
+        "reason": 1,
         "writingskill": 3
       },
       "effects": {
-        "writing_book_forge_subvert": 1,
-        "insight": 1
+        "insight": 1,
+        "quill_almanac_heart": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_forge_subvert",
-      "description": "XXX book_forge_subvert",
-      "startdescription": "XXX book_forge_subvert",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_heart",
+      "description": "XXX quill_almanac_heart",
+      "label": "XXX quill_almanac_heart"
     },
     {
-      "id": "writing_book_heart_subvert",
+      "id": "quill_almanac_grail",
       "actionId": "work",
       "requirements": {
-        "winter": 8,
-        "heart": 4,
-        "passion": 1,
+        "grail": 14,
+        "reason": 1,
         "writingskill": 3
       },
       "effects": {
-        "writing_book_heart_subvert": 1,
-        "insight": 1
+        "insight": 1,
+        "quill_almanac_grail": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_heart_subvert",
-      "description": "XXX book_heart_subvert",
-      "startdescription": "XXX book_heart_subvert",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_grail",
+      "description": "XXX quill_almanac_grail",
+      "label": "XXX quill_almanac_grail"
     },
     {
-      "id": "writing_book_edge_subvert",
+      "id": "quill_almanac_moth",
       "actionId": "work",
       "requirements": {
-        "forge": 8,
-        "edge": 4,
-        "passion": 1,
+        "moth": 14,
+        "reason": 1,
         "writingskill": 3
       },
       "effects": {
-        "writing_book_edge_subvert": 1,
-        "insight": 1
+        "insight": 1,
+        "quill_almanac_moth": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_edge_subvert",
-      "description": "XXX book_edge_subvert",
-      "startdescription": "XXX book_edge_subvert",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_almanac_moth",
+      "description": "XXX quill_almanac_moth",
+      "label": "XXX quill_almanac_moth"
     },
     {
-      "id": "writing_book_grail_subvert",
-      "actionId": "work",
-      "requirements": {
-        "heart": 8,
-        "grail": 4,
-        "passion": 1,
-        "writingskill": 3
-      },
-      "effects": {
-        "writing_book_grail_subvert": 1,
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_grail_subvert",
-      "description": "XXX book_grail_subvert",
-      "startdescription": "XXX book_grail_subvert",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_winter_subvert",
-      "actionId": "work",
-      "requirements": {
-        "edge": 8,
-        "winter": 4,
-        "passion": 1,
-        "writingskill": 3
-      },
-      "effects": {
-        "writing_book_winter_subvert": 1,
-        "insight": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_winter_subvert",
-      "description": "XXX book_winter_subvert",
-      "startdescription": "XXX book_winter_subvert",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_lantern_subvert",
+      "id": "quill_book_lantern_subvert",
       "actionId": "work",
       "requirements": {
         "moth": 8,
@@ -1970,22 +1850,142 @@
         "writingskill": 3
       },
       "effects": {
-        "writing_book_lantern_subvert": 1,
+        "quill_book_lantern_subvert": 1,
         "insight": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_lantern_subvert",
-      "description": "XXX book_lantern_subvert",
-      "startdescription": "XXX book_lantern_subvert",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_lantern_subvert",
+      "description": "XXX quill_book_lantern_subvert",
+      "label": "XXX quill_book_lantern_subvert"
     },
     {
-      "id": "writing_book_moth_subvert",
+      "id": "quill_book_winter_subvert",
+      "actionId": "work",
+      "requirements": {
+        "edge": 8,
+        "winter": 4,
+        "passion": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "quill_book_winter_subvert": 1,
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_book_winter_subvert",
+      "description": "XXX quill_book_winter_subvert",
+      "label": "XXX quill_book_winter_subvert"
+    },
+    {
+      "id": "quill_book_forge_subvert",
+      "actionId": "work",
+      "requirements": {
+        "lantern": 8,
+        "forge": 4,
+        "passion": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "quill_book_forge_subvert": 1,
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_book_forge_subvert",
+      "description": "XXX quill_book_forge_subvert",
+      "label": "XXX quill_book_forge_subvert"
+    },
+    {
+      "id": "quill_book_edge_subvert",
+      "actionId": "work",
+      "requirements": {
+        "forge": 8,
+        "edge": 4,
+        "passion": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "quill_book_edge_subvert": 1,
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_book_edge_subvert",
+      "description": "XXX quill_book_edge_subvert",
+      "label": "XXX quill_book_edge_subvert"
+    },
+    {
+      "id": "quill_book_heart_subvert",
+      "actionId": "work",
+      "requirements": {
+        "winter": 8,
+        "heart": 4,
+        "passion": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "quill_book_heart_subvert": 1,
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_book_heart_subvert",
+      "description": "XXX quill_book_heart_subvert",
+      "label": "XXX quill_book_heart_subvert"
+    },
+    {
+      "id": "quill_book_grail_subvert",
+      "actionId": "work",
+      "requirements": {
+        "heart": 8,
+        "grail": 4,
+        "passion": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "quill_book_grail_subvert": 1,
+        "insight": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_book_grail_subvert",
+      "description": "XXX quill_book_grail_subvert",
+      "label": "XXX quill_book_grail_subvert"
+    },
+    {
+      "id": "quill_book_moth_subvert",
       "actionId": "work",
       "requirements": {
         "grail": 8,
@@ -1994,154 +1994,22 @@
         "writingskill": 3
       },
       "effects": {
-        "writing_book_moth_subvert": 1,
+        "quill_book_moth_subvert": 1,
         "insight": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_moth_subvert",
-      "description": "XXX book_moth_subvert",
-      "startdescription": "XXX book_moth_subvert",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_moth_subvert",
+      "description": "XXX quill_book_moth_subvert",
+      "label": "XXX quill_book_moth_subvert"
     },
     {
-      "id": "writing_book_secrethistories",
-      "actionId": "work",
-      "requirements": {
-        "secrethistories": 10,
-        "passion": 1,
-        "writingskill": 2
-      },
-      "effects": {
-        "writing_book_secrethistories": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_secrethistories",
-      "description": "XXX book_secrethistories",
-      "startdescription": "XXX book_secrethistories",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_forge",
-      "actionId": "work",
-      "requirements": {
-        "forge": 10,
-        "passion": 1,
-        "writingskill": 2
-      },
-      "effects": {
-        "writing_book_forge": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_forge",
-      "description": "XXX book_forge",
-      "startdescription": "XXX book_forge",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_heart",
-      "actionId": "work",
-      "requirements": {
-        "heart": 10,
-        "passion": 1,
-        "writingskill": 2
-      },
-      "effects": {
-        "writing_book_heart": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_heart",
-      "description": "XXX book_heart",
-      "startdescription": "XXX book_heart",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_edge",
-      "actionId": "work",
-      "requirements": {
-        "edge": 10,
-        "passion": 1,
-        "writingskill": 2
-      },
-      "effects": {
-        "writing_book_edge": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_edge",
-      "description": "XXX book_edge",
-      "startdescription": "XXX book_edge",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_grail",
-      "actionId": "work",
-      "requirements": {
-        "grail": 10,
-        "passion": 1,
-        "writingskill": 2
-      },
-      "effects": {
-        "writing_book_grail": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_grail",
-      "description": "XXX book_grail",
-      "startdescription": "XXX book_grail",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_winter",
-      "actionId": "work",
-      "requirements": {
-        "winter": 10,
-        "passion": 1,
-        "writingskill": 2
-      },
-      "effects": {
-        "writing_book_winter": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX book_winter",
-      "description": "XXX book_winter",
-      "startdescription": "XXX book_winter",
-      "warmup": 1
-    },
-    {
-      "id": "writing_book_lantern",
+      "id": "quill_book_lantern",
       "actionId": "work",
       "requirements": {
         "lantern": 10,
@@ -2149,43 +2017,87 @@
         "writingskill": 2
       },
       "effects": {
-        "writing_book_lantern": 1
+        "quill_book_lantern": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_lantern",
-      "description": "XXX book_lantern",
-      "startdescription": "XXX book_lantern",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_lantern",
+      "description": "XXX quill_book_lantern",
+      "label": "XXX quill_book_lantern"
     },
     {
-      "id": "writing_book_moth",
+      "id": "quill_book_winter",
       "actionId": "work",
       "requirements": {
-        "moth": 10,
+        "winter": 10,
         "passion": 1,
         "writingskill": 2
       },
       "effects": {
-        "writing_book_moth": 1
+        "quill_book_winter": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_moth",
-      "description": "XXX book_moth",
-      "startdescription": "XXX book_moth",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_winter",
+      "description": "XXX quill_book_winter",
+      "label": "XXX quill_book_winter"
     },
     {
-      "id": "writing_book_knock",
+      "id": "quill_book_forge",
+      "actionId": "work",
+      "requirements": {
+        "forge": 10,
+        "passion": 1,
+        "writingskill": 2
+      },
+      "effects": {
+        "quill_book_forge": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_book_forge",
+      "description": "XXX quill_book_forge",
+      "label": "XXX quill_book_forge"
+    },
+    {
+      "id": "quill_book_edge",
+      "actionId": "work",
+      "requirements": {
+        "edge": 10,
+        "passion": 1,
+        "writingskill": 2
+      },
+      "effects": {
+        "quill_book_edge": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_book_edge",
+      "description": "XXX quill_book_edge",
+      "label": "XXX quill_book_edge"
+    },
+    {
+      "id": "quill_book_knock",
       "actionId": "work",
       "requirements": {
         "knock": 10,
@@ -2193,372 +2105,334 @@
         "writingskill": 2
       },
       "effects": {
-        "writing_book_knock": 1
+        "quill_book_knock": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX book_knock",
-      "description": "XXX book_knock",
-      "startdescription": "XXX book_knock",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_knock",
+      "description": "XXX quill_book_knock",
+      "label": "XXX quill_book_knock"
     },
     {
-      "id": "writing_manuscript_secrethistories",
+      "id": "quill_book_secrethistories",
       "actionId": "work",
       "requirements": {
-        "secrethistories": 2
+        "secrethistories": 10,
+        "passion": 1,
+        "writingskill": 2
       },
-      "alternativerecipes": [
+      "effects": {
+        "quill_book_secrethistories": 1
+      },
+      "linked": [
         {
-          "id": "writing_manuscript_secrethistories_c",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_secrethistories_b",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_secrethistories_a",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_secrethistories",
-      "description": "XXX manuscript_secrethistories",
-      "startdescription": "XXX manuscript_secrethistories",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_secrethistories",
+      "description": "XXX quill_book_secrethistories",
+      "label": "XXX quill_book_secrethistories"
     },
     {
-      "id": "writing_manuscript_forge",
+      "id": "quill_book_heart",
       "actionId": "work",
       "requirements": {
-        "forge": 2
+        "heart": 10,
+        "passion": 1,
+        "writingskill": 2
       },
-      "alternativerecipes": [
+      "effects": {
+        "quill_book_heart": 1
+      },
+      "linked": [
         {
-          "id": "writing_manuscript_forge_c",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_forge_b",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_forge_a",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_forge",
-      "description": "XXX manuscript_forge",
-      "startdescription": "XXX manuscript_forge",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_heart",
+      "description": "XXX quill_book_heart",
+      "label": "XXX quill_book_heart"
     },
     {
-      "id": "writing_manuscript_heart",
+      "id": "quill_book_grail",
       "actionId": "work",
       "requirements": {
-        "heart": 2
+        "grail": 10,
+        "passion": 1,
+        "writingskill": 2
       },
-      "alternativerecipes": [
+      "effects": {
+        "quill_book_grail": 1
+      },
+      "linked": [
         {
-          "id": "writing_manuscript_heart_c",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_heart_b",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_heart_a",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_heart",
-      "description": "XXX manuscript_heart",
-      "startdescription": "XXX manuscript_heart",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_grail",
+      "description": "XXX quill_book_grail",
+      "label": "XXX quill_book_grail"
     },
     {
-      "id": "writing_manuscript_edge",
+      "id": "quill_book_moth",
       "actionId": "work",
       "requirements": {
-        "edge": 2
+        "moth": 10,
+        "passion": 1,
+        "writingskill": 2
       },
-      "alternativerecipes": [
+      "effects": {
+        "quill_book_moth": 1
+      },
+      "linked": [
         {
-          "id": "writing_manuscript_edge_c",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_edge_b",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_edge_a",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_edge",
-      "description": "XXX manuscript_edge",
-      "startdescription": "XXX manuscript_edge",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_book_moth",
+      "description": "XXX quill_book_moth",
+      "label": "XXX quill_book_moth"
     },
     {
-      "id": "writing_manuscript_grail",
-      "actionId": "work",
-      "requirements": {
-        "grail": 2
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_manuscript_grail_c",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_grail_b",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_grail_a",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_grail",
-      "description": "XXX manuscript_grail",
-      "startdescription": "XXX manuscript_grail",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_winter",
-      "actionId": "work",
-      "requirements": {
-        "winter": 2
-      },
-      "alternativerecipes": [
-        {
-          "id": "writing_manuscript_winter_c",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_winter_b",
-          "chance": 100
-        },
-        {
-          "id": "writing_manuscript_winter_a",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_winter",
-      "description": "XXX manuscript_winter",
-      "startdescription": "XXX manuscript_winter",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_lantern",
+      "id": "quill_manuscript_lantern",
       "actionId": "work",
       "requirements": {
         "lantern": 2
       },
       "alternativerecipes": [
         {
-          "id": "writing_manuscript_lantern_c",
+          "id": "quill_manuscript_lantern_c",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_lantern_b",
+          "id": "quill_manuscript_lantern_b",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_lantern_a",
+          "id": "quill_manuscript_lantern_a",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_lantern",
-      "description": "XXX manuscript_lantern",
-      "startdescription": "XXX manuscript_lantern",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_lantern",
+      "description": "XXX quill_manuscript_lantern",
+      "label": "XXX quill_manuscript_lantern"
     },
     {
-      "id": "writing_manuscript_moth",
+      "id": "quill_manuscript_winter",
       "actionId": "work",
       "requirements": {
-        "moth": 2
+        "winter": 2
       },
       "alternativerecipes": [
         {
-          "id": "writing_manuscript_moth_c",
+          "id": "quill_manuscript_winter_c",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_moth_b",
+          "id": "quill_manuscript_winter_b",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_moth_a",
+          "id": "quill_manuscript_winter_a",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_moth",
-      "description": "XXX manuscript_moth",
-      "startdescription": "XXX manuscript_moth",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_winter",
+      "description": "XXX quill_manuscript_winter",
+      "label": "XXX quill_manuscript_winter"
     },
     {
-      "id": "writing_manuscript_knock",
+      "id": "quill_manuscript_forge",
+      "actionId": "work",
+      "requirements": {
+        "forge": 2
+      },
+      "alternativerecipes": [
+        {
+          "id": "quill_manuscript_forge_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_forge_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_forge_a",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_forge",
+      "description": "XXX quill_manuscript_forge",
+      "label": "XXX quill_manuscript_forge"
+    },
+    {
+      "id": "quill_manuscript_edge",
+      "actionId": "work",
+      "requirements": {
+        "edge": 2
+      },
+      "alternativerecipes": [
+        {
+          "id": "quill_manuscript_edge_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_edge_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_edge_a",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_edge",
+      "description": "XXX quill_manuscript_edge",
+      "label": "XXX quill_manuscript_edge"
+    },
+    {
+      "id": "quill_manuscript_knock",
       "actionId": "work",
       "requirements": {
         "knock": 2
       },
       "alternativerecipes": [
         {
-          "id": "writing_manuscript_knock_c",
+          "id": "quill_manuscript_knock_c",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_knock_b",
+          "id": "quill_manuscript_knock_b",
           "chance": 100
         },
         {
-          "id": "writing_manuscript_knock_a",
+          "id": "quill_manuscript_knock_a",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_knock",
-      "description": "XXX manuscript_knock",
-      "startdescription": "XXX manuscript_knock",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_knock",
+      "description": "XXX quill_manuscript_knock",
+      "label": "XXX quill_manuscript_knock"
     },
     {
-      "id": "writing_manuscript_secrethistories_c",
+      "id": "quill_manuscript_secrethistories",
       "actionId": "work",
       "requirements": {
-        "secrethistories": 10,
-        "writingskill": 3
+        "secrethistories": 2
       },
-      "effects": {
-        "articlesecrethistoriesc": 1
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_manuscript_secrethistories_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_secrethistories_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_secrethistories_a",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_secrethistories_c",
-      "description": "XXX manuscript_secrethistories_c",
-      "startdescription": "XXX manuscript_secrethistories_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_secrethistories",
+      "description": "XXX quill_manuscript_secrethistories",
+      "label": "XXX quill_manuscript_secrethistories"
     },
     {
-      "id": "writing_manuscript_forge_c",
+      "id": "quill_manuscript_heart",
       "actionId": "work",
       "requirements": {
-        "forge": 10,
-        "writingskill": 3
+        "heart": 2
       },
-      "effects": {
-        "articleforgec": 1
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_manuscript_heart_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_heart_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_heart_a",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_forge_c",
-      "description": "XXX manuscript_forge_c",
-      "startdescription": "XXX manuscript_forge_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_heart",
+      "description": "XXX quill_manuscript_heart",
+      "label": "XXX quill_manuscript_heart"
     },
     {
-      "id": "writing_manuscript_heart_c",
+      "id": "quill_manuscript_grail",
       "actionId": "work",
       "requirements": {
-        "heart": 10,
-        "writingskill": 3
+        "grail": 2
       },
-      "effects": {
-        "articleheartc": 1
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_manuscript_grail_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_grail_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_grail_a",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_heart_c",
-      "description": "XXX manuscript_heart_c",
-      "startdescription": "XXX manuscript_heart_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_grail",
+      "description": "XXX quill_manuscript_grail",
+      "label": "XXX quill_manuscript_grail"
     },
     {
-      "id": "writing_manuscript_edge_c",
+      "id": "quill_manuscript_moth",
       "actionId": "work",
       "requirements": {
-        "edge": 10,
-        "writingskill": 3
+        "moth": 2
       },
-      "effects": {
-        "articleedgec": 1
-      },
-      "linked": [
+      "alternativerecipes": [
         {
-          "id": "writing_results",
+          "id": "quill_manuscript_moth_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_moth_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_manuscript_moth_a",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_edge_c",
-      "description": "XXX manuscript_edge_c",
-      "startdescription": "XXX manuscript_edge_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_moth",
+      "description": "XXX quill_manuscript_moth",
+      "label": "XXX quill_manuscript_moth"
     },
     {
-      "id": "writing_manuscript_grail_c",
-      "actionId": "work",
-      "requirements": {
-        "grail": 10,
-        "writingskill": 3
-      },
-      "effects": {
-        "articlegrailc": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_grail_c",
-      "description": "XXX manuscript_grail_c",
-      "startdescription": "XXX manuscript_grail_c",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_winter_c",
-      "actionId": "work",
-      "requirements": {
-        "winter": 10,
-        "writingskill": 3
-      },
-      "effects": {
-        "articlewinterc": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_winter_c",
-      "description": "XXX manuscript_winter_c",
-      "startdescription": "XXX manuscript_winter_c",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_lantern_c",
+      "id": "quill_manuscript_lantern_c",
       "actionId": "work",
       "requirements": {
         "lantern": 10,
@@ -2569,38 +2443,80 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_lantern_c",
-      "description": "XXX manuscript_lantern_c",
-      "startdescription": "XXX manuscript_lantern_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_lantern_c",
+      "description": "XXX quill_manuscript_lantern_c",
+      "label": "XXX quill_manuscript_lantern_c"
     },
     {
-      "id": "writing_manuscript_moth_c",
+      "id": "quill_manuscript_winter_c",
       "actionId": "work",
       "requirements": {
-        "moth": 10,
+        "winter": 10,
         "writingskill": 3
       },
       "effects": {
-        "articlemothc": 1
+        "articlewinterc": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_moth_c",
-      "description": "XXX manuscript_moth_c",
-      "startdescription": "XXX manuscript_moth_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_winter_c",
+      "description": "XXX quill_manuscript_winter_c",
+      "label": "XXX quill_manuscript_winter_c"
     },
     {
-      "id": "writing_manuscript_knock_c",
+      "id": "quill_manuscript_forge_c",
+      "actionId": "work",
+      "requirements": {
+        "forge": 10,
+        "writingskill": 3
+      },
+      "effects": {
+        "articleforgec": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_forge_c",
+      "description": "XXX quill_manuscript_forge_c",
+      "label": "XXX quill_manuscript_forge_c"
+    },
+    {
+      "id": "quill_manuscript_edge_c",
+      "actionId": "work",
+      "requirements": {
+        "edge": 10,
+        "writingskill": 3
+      },
+      "effects": {
+        "articleedgec": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_edge_c",
+      "description": "XXX quill_manuscript_edge_c",
+      "label": "XXX quill_manuscript_edge_c"
+    },
+    {
+      "id": "quill_manuscript_knock_c",
       "actionId": "work",
       "requirements": {
         "knock": 10,
@@ -2611,143 +2527,101 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_knock_c",
-      "description": "XXX manuscript_knock_c",
-      "startdescription": "XXX manuscript_knock_c",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_knock_c",
+      "description": "XXX quill_manuscript_knock_c",
+      "label": "XXX quill_manuscript_knock_c"
     },
     {
-      "id": "writing_manuscript_secrethistories_b",
+      "id": "quill_manuscript_secrethistories_c",
       "actionId": "work",
       "requirements": {
-        "secrethistories": 6,
-        "writingskill": 2
+        "secrethistories": 10,
+        "writingskill": 3
       },
       "effects": {
-        "articlesecrethistoriesb": 1
+        "articlesecrethistoriesc": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_secrethistories_b",
-      "description": "XXX manuscript_secrethistories_b",
-      "startdescription": "XXX manuscript_secrethistories_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_secrethistories_c",
+      "description": "XXX quill_manuscript_secrethistories_c",
+      "label": "XXX quill_manuscript_secrethistories_c"
     },
     {
-      "id": "writing_manuscript_forge_b",
+      "id": "quill_manuscript_heart_c",
       "actionId": "work",
       "requirements": {
-        "forge": 6,
-        "writingskill": 2
+        "heart": 10,
+        "writingskill": 3
       },
       "effects": {
-        "articleforgeb": 1
+        "articleheartc": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_forge_b",
-      "description": "XXX manuscript_forge_b",
-      "startdescription": "XXX manuscript_forge_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_heart_c",
+      "description": "XXX quill_manuscript_heart_c",
+      "label": "XXX quill_manuscript_heart_c"
     },
     {
-      "id": "writing_manuscript_heart_b",
+      "id": "quill_manuscript_grail_c",
       "actionId": "work",
       "requirements": {
-        "heart": 6,
-        "writingskill": 2
+        "grail": 10,
+        "writingskill": 3
       },
       "effects": {
-        "articleheartb": 1
+        "articlegrailc": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_heart_b",
-      "description": "XXX manuscript_heart_b",
-      "startdescription": "XXX manuscript_heart_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_grail_c",
+      "description": "XXX quill_manuscript_grail_c",
+      "label": "XXX quill_manuscript_grail_c"
     },
     {
-      "id": "writing_manuscript_edge_b",
+      "id": "quill_manuscript_moth_c",
       "actionId": "work",
       "requirements": {
-        "edge": 6,
-        "writingskill": 2
+        "moth": 10,
+        "writingskill": 3
       },
       "effects": {
-        "articleedgeb": 1
+        "articlemothc": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_edge_b",
-      "description": "XXX manuscript_edge_b",
-      "startdescription": "XXX manuscript_edge_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_moth_c",
+      "description": "XXX quill_manuscript_moth_c",
+      "label": "XXX quill_manuscript_moth_c"
     },
     {
-      "id": "writing_manuscript_grail_b",
-      "actionId": "work",
-      "requirements": {
-        "grail": 6,
-        "writingskill": 2
-      },
-      "effects": {
-        "articlegrailb": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_grail_b",
-      "description": "XXX manuscript_grail_b",
-      "startdescription": "XXX manuscript_grail_b",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_winter_b",
-      "actionId": "work",
-      "requirements": {
-        "winter": 6,
-        "writingskill": 2
-      },
-      "effects": {
-        "articlewinterb": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_winter_b",
-      "description": "XXX manuscript_winter_b",
-      "startdescription": "XXX manuscript_winter_b",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_lantern_b",
+      "id": "quill_manuscript_lantern_b",
       "actionId": "work",
       "requirements": {
         "lantern": 6,
@@ -2758,38 +2632,80 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_lantern_b",
-      "description": "XXX manuscript_lantern_b",
-      "startdescription": "XXX manuscript_lantern_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_lantern_b",
+      "description": "XXX quill_manuscript_lantern_b",
+      "label": "XXX quill_manuscript_lantern_b"
     },
     {
-      "id": "writing_manuscript_moth_b",
+      "id": "quill_manuscript_winter_b",
       "actionId": "work",
       "requirements": {
-        "moth": 6,
+        "winter": 6,
         "writingskill": 2
       },
       "effects": {
-        "articlemothb": 1
+        "articlewinterb": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_moth_b",
-      "description": "XXX manuscript_moth_b",
-      "startdescription": "XXX manuscript_moth_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_winter_b",
+      "description": "XXX quill_manuscript_winter_b",
+      "label": "XXX quill_manuscript_winter_b"
     },
     {
-      "id": "writing_manuscript_knock_b",
+      "id": "quill_manuscript_forge_b",
+      "actionId": "work",
+      "requirements": {
+        "forge": 6,
+        "writingskill": 2
+      },
+      "effects": {
+        "articleforgeb": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_forge_b",
+      "description": "XXX quill_manuscript_forge_b",
+      "label": "XXX quill_manuscript_forge_b"
+    },
+    {
+      "id": "quill_manuscript_edge_b",
+      "actionId": "work",
+      "requirements": {
+        "edge": 6,
+        "writingskill": 2
+      },
+      "effects": {
+        "articleedgeb": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_edge_b",
+      "description": "XXX quill_manuscript_edge_b",
+      "label": "XXX quill_manuscript_edge_b"
+    },
+    {
+      "id": "quill_manuscript_knock_b",
       "actionId": "work",
       "requirements": {
         "knock": 6,
@@ -2800,137 +2716,101 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_knock_b",
-      "description": "XXX manuscript_knock_b",
-      "startdescription": "XXX manuscript_knock_b",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_knock_b",
+      "description": "XXX quill_manuscript_knock_b",
+      "label": "XXX quill_manuscript_knock_b"
     },
     {
-      "id": "writing_manuscript_secrethistories_a",
+      "id": "quill_manuscript_secrethistories_b",
       "actionId": "work",
       "requirements": {
-        "secrethistories": 2
+        "secrethistories": 6,
+        "writingskill": 2
       },
       "effects": {
-        "articlesecrethistoriesa": 1
+        "articlesecrethistoriesb": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_secrethistories_a",
-      "description": "XXX manuscript_secrethistories_a",
-      "startdescription": "XXX manuscript_secrethistories_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_secrethistories_b",
+      "description": "XXX quill_manuscript_secrethistories_b",
+      "label": "XXX quill_manuscript_secrethistories_b"
     },
     {
-      "id": "writing_manuscript_forge_a",
+      "id": "quill_manuscript_heart_b",
       "actionId": "work",
       "requirements": {
-        "forge": 2
+        "heart": 6,
+        "writingskill": 2
       },
       "effects": {
-        "articleforgea": 1
+        "articleheartb": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_forge_a",
-      "description": "XXX manuscript_forge_a",
-      "startdescription": "XXX manuscript_forge_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_heart_b",
+      "description": "XXX quill_manuscript_heart_b",
+      "label": "XXX quill_manuscript_heart_b"
     },
     {
-      "id": "writing_manuscript_heart_a",
+      "id": "quill_manuscript_grail_b",
       "actionId": "work",
       "requirements": {
-        "heart": 2
+        "grail": 6,
+        "writingskill": 2
       },
       "effects": {
-        "articlehearta": 1
+        "articlegrailb": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_heart_a",
-      "description": "XXX manuscript_heart_a",
-      "startdescription": "XXX manuscript_heart_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_grail_b",
+      "description": "XXX quill_manuscript_grail_b",
+      "label": "XXX quill_manuscript_grail_b"
     },
     {
-      "id": "writing_manuscript_edge_a",
+      "id": "quill_manuscript_moth_b",
       "actionId": "work",
       "requirements": {
-        "edge": 2
+        "moth": 6,
+        "writingskill": 2
       },
       "effects": {
-        "articleedgea": 1
+        "articlemothb": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_edge_a",
-      "description": "XXX manuscript_edge_a",
-      "startdescription": "XXX manuscript_edge_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_moth_b",
+      "description": "XXX quill_manuscript_moth_b",
+      "label": "XXX quill_manuscript_moth_b"
     },
     {
-      "id": "writing_manuscript_grail_a",
-      "actionId": "work",
-      "requirements": {
-        "grail": 2
-      },
-      "effects": {
-        "articlegraila": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_grail_a",
-      "description": "XXX manuscript_grail_a",
-      "startdescription": "XXX manuscript_grail_a",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_winter_a",
-      "actionId": "work",
-      "requirements": {
-        "winter": 2
-      },
-      "effects": {
-        "articlewintera": 1
-      },
-      "linked": [
-        {
-          "id": "writing_results",
-          "chance": 100
-        }
-      ],
-      "label": "XXX manuscript_winter_a",
-      "description": "XXX manuscript_winter_a",
-      "startdescription": "XXX manuscript_winter_a",
-      "warmup": 1
-    },
-    {
-      "id": "writing_manuscript_lantern_a",
+      "id": "quill_manuscript_lantern_a",
       "actionId": "work",
       "requirements": {
         "lantern": 2
@@ -2940,37 +2820,77 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_lantern_a",
-      "description": "XXX manuscript_lantern_a",
-      "startdescription": "XXX manuscript_lantern_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_lantern_a",
+      "description": "XXX quill_manuscript_lantern_a",
+      "label": "XXX quill_manuscript_lantern_a"
     },
     {
-      "id": "writing_manuscript_moth_a",
+      "id": "quill_manuscript_winter_a",
       "actionId": "work",
       "requirements": {
-        "moth": 2
+        "winter": 2
       },
       "effects": {
-        "articlemotha": 1
+        "articlewintera": 1
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_moth_a",
-      "description": "XXX manuscript_moth_a",
-      "startdescription": "XXX manuscript_moth_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_winter_a",
+      "description": "XXX quill_manuscript_winter_a",
+      "label": "XXX quill_manuscript_winter_a"
     },
     {
-      "id": "writing_manuscript_knock_a",
+      "id": "quill_manuscript_forge_a",
+      "actionId": "work",
+      "requirements": {
+        "forge": 2
+      },
+      "effects": {
+        "articleforgea": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_forge_a",
+      "description": "XXX quill_manuscript_forge_a",
+      "label": "XXX quill_manuscript_forge_a"
+    },
+    {
+      "id": "quill_manuscript_edge_a",
+      "actionId": "work",
+      "requirements": {
+        "edge": 2
+      },
+      "effects": {
+        "articleedgea": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_edge_a",
+      "description": "XXX quill_manuscript_edge_a",
+      "label": "XXX quill_manuscript_edge_a"
+    },
+    {
+      "id": "quill_manuscript_knock_a",
       "actionId": "work",
       "requirements": {
         "knock": 2
@@ -2980,41 +2900,121 @@
       },
       "linked": [
         {
-          "id": "writing_results",
+          "id": "quill_results",
           "chance": 100
         }
       ],
-      "label": "XXX manuscript_knock_a",
-      "description": "XXX manuscript_knock_a",
-      "startdescription": "XXX manuscript_knock_a",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_knock_a",
+      "description": "XXX quill_manuscript_knock_a",
+      "label": "XXX quill_manuscript_knock_a"
     },
     {
-      "id": "writing_nothing",
+      "id": "quill_manuscript_secrethistories_a",
+      "actionId": "work",
+      "requirements": {
+        "secrethistories": 2
+      },
+      "effects": {
+        "articlesecrethistoriesa": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_secrethistories_a",
+      "description": "XXX quill_manuscript_secrethistories_a",
+      "label": "XXX quill_manuscript_secrethistories_a"
+    },
+    {
+      "id": "quill_manuscript_heart_a",
+      "actionId": "work",
+      "requirements": {
+        "heart": 2
+      },
+      "effects": {
+        "articlehearta": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_heart_a",
+      "description": "XXX quill_manuscript_heart_a",
+      "label": "XXX quill_manuscript_heart_a"
+    },
+    {
+      "id": "quill_manuscript_grail_a",
+      "actionId": "work",
+      "requirements": {
+        "grail": 2
+      },
+      "effects": {
+        "articlegraila": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_grail_a",
+      "description": "XXX quill_manuscript_grail_a",
+      "label": "XXX quill_manuscript_grail_a"
+    },
+    {
+      "id": "quill_manuscript_moth_a",
+      "actionId": "work",
+      "requirements": {
+        "moth": 2
+      },
+      "effects": {
+        "articlemotha": 1
+      },
+      "linked": [
+        {
+          "id": "quill_results",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "startdescription": "XXX quill_manuscript_moth_a",
+      "description": "XXX quill_manuscript_moth_a",
+      "label": "XXX quill_manuscript_moth_a"
+    },
+    {
+      "id": "quill_nothing",
       "actionId": "work",
       "effects": {
         "restlessness": 1,
         "insight": -99
       },
-      "label": "XXX nothing",
-      "description": "XXX nothing",
-      "startdescription": "XXX nothing",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_nothing",
+      "description": "XXX quill_nothing",
+      "label": "XXX quill_nothing"
     },
     {
-      "id": "writing_results",
+      "id": "quill_results",
       "actionId": "work",
       "alternativerecipes": [
         {
-          "id": "writing_results_three_insight",
+          "id": "quill_results_three_insight",
           "chance": 100
         },
         {
-          "id": "writing_results_two_insight",
+          "id": "quill_results_two_insight",
           "chance": 100
         },
         {
-          "id": "writing_results_one_insight",
+          "id": "quill_results_one_insight",
           "chance": 100
         }
       ],
@@ -3022,13 +3022,13 @@
         "insight": -99,
         "pigment": -1
       },
-      "label": "XXX results",
-      "description": "XXX results",
-      "startdescription": "XXX results",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_results",
+      "description": "XXX quill_results",
+      "label": "XXX quill_results"
     },
     {
-      "id": "writing_results_three_insight",
+      "id": "quill_results_three_insight",
       "actionId": "work",
       "requirements": {
         "insight": 3
@@ -3038,16 +3038,16 @@
         "pigment": -1
       },
       "deckeffect": {
-        "writing_reputation": 3,
-        "writing_results_random": 2
+        "quill_reputation": 3,
+        "quill_results_random": 2
       },
-      "label": "XXX results_three_insight",
-      "description": "XXX results_three_insight",
-      "startdescription": "XXX results_three_insight",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_results_three_insight",
+      "description": "XXX quill_results_three_insight",
+      "label": "XXX quill_results_three_insight"
     },
     {
-      "id": "writing_results_two_insight",
+      "id": "quill_results_two_insight",
       "actionId": "work",
       "requirements": {
         "insight": 2
@@ -3057,16 +3057,16 @@
         "pigment": -1
       },
       "deckeffect": {
-        "writing_reputation": 2,
-        "writing_results_random": 1
+        "quill_reputation": 2,
+        "quill_results_random": 1
       },
-      "label": "XXX results_two_insight",
-      "description": "XXX results_two_insight",
-      "startdescription": "XXX results_two_insight",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_results_two_insight",
+      "description": "XXX quill_results_two_insight",
+      "label": "XXX quill_results_two_insight"
     },
     {
-      "id": "writing_results_one_insight",
+      "id": "quill_results_one_insight",
       "actionId": "work",
       "requirements": {
         "insight": 1
@@ -3076,12 +3076,12 @@
         "pigment": -1
       },
       "deckeffect": {
-        "writing_reputation": 1
+        "quill_reputation": 1
       },
-      "label": "XXX results_one_insight",
-      "description": "XXX results_one_insight",
-      "startdescription": "XXX results_one_insight",
-      "warmup": 1
+      "warmup": 1,
+      "startdescription": "XXX quill_results_one_insight",
+      "description": "XXX quill_results_one_insight",
+      "label": "XXX quill_results_one_insight"
     }
   ]
 }

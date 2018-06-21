@@ -1,8 +1,7 @@
 {
   "recipes": [
     {
-      "id": "transform_scholarship_a",
-      "label": "XXX Learn to Write",
+      "id": "quill_transform_writing_a",
       "actionId": "dream",
       "requirements": {
         "reasonskill": 1
@@ -13,22 +12,48 @@
       },
       "alternativerecipes": [
         {
-          "id": "transform_scholarship_c",
+          "id": "quill_transform_scholarship_c",
           "chance": 100
         },
         {
-          "id": "transform_scholarship_b",
+          "id": "quill_transform_scholarship_b",
           "chance": 100
         }
       ],
-      "startdescription": "XXX Learn to Write A",
-      "description": "XXX ...",
-      "warmup": 10,
-      "craftable": true
+      "warmup": 1,
+      "craftable": true,
+      "startdescription": "XXX quill_transform_writing_a",
+      "description": "XXX quill_transform_writing_a",
+      "label": "XXX quill_transform_writing_a"
     },
     {
-      "id": "transform_scholarship_b",
-      "label": "XXX Learn to Write",
+      "id": "quill_transform_reason_a",
+      "actionId": "dream",
+      "requirements": {
+        "writingskill": 1
+      },
+      "effects": {
+        "writingskill": -99,
+        "reasonskilla": 1
+      },
+      "alternativerecipes": [
+        {
+          "id": "quill_transform_scholarship_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_transform_scholarship_b",
+          "chance": 100
+        }
+      ],
+      "warmup": 1,
+      "craftable": true,
+      "startdescription": "XXX quill_transform_reason_a",
+      "description": "XXX quill_transform_reason_a",
+      "label": "XXX quill_transform_reason_a"
+    },
+    {
+      "id": "quill_transform_writing_b",
       "actionId": "dream",
       "requirements": {
         "reasonskill": 2
@@ -37,14 +62,30 @@
         "reasonskill": -99,
         "writingskillb": 1
       },
-      "startdescription": "XXX Learn to Write B",
-      "description": "XXX ...",
-      "warmup": 10,
-      "craftable": true
+      "warmup": 1,
+      "craftable": true,
+      "startdescription": "XXX quill_transform_writing_b",
+      "description": "XXX quill_transform_writing_b",
+      "label": "XXX quill_transform_writing_b"
     },
     {
-      "id": "transform_scholarship_c",
-      "label": "XXX Learn to Write",
+      "id": "quill_transform_reason_b",
+      "actionId": "dream",
+      "requirements": {
+        "writingskill": 2
+      },
+      "effects": {
+        "writingskill": -99,
+        "reasonskillb": 1
+      },
+      "warmup": 1,
+      "craftable": true,
+      "startdescription": "XXX quill_transform_reason_b",
+      "description": "XXX quill_transform_reason_b",
+      "label": "XXX quill_transform_reason_b"
+    },
+    {
+      "id": "quill_transform_writing_c",
       "actionId": "dream",
       "requirements": {
         "reasonskill": 3
@@ -53,10 +94,27 @@
         "reasonskill": -99,
         "writingskillc": 1
       },
-      "startdescription": "XXX Learn to Write C",
-      "description": "XXX ...",
-      "warmup": 10,
-      "craftable": true
+      "warmup": 1,
+      "craftable": true,
+      "startdescription": "XXX quill_transform_writing_c",
+      "description": "XXX quill_transform_writing_c",
+      "label": "XXX quill_transform_writing_c"
+    },
+    {
+      "id": "quill_transform_reason_c",
+      "actionId": "dream",
+      "requirements": {
+        "writingskill": 3
+      },
+      "effects": {
+        "writingskill": -99,
+        "reasonskillc": 1
+      },
+      "warmup": 1,
+      "craftable": true,
+      "startdescription": "XXX quill_transform_reason_c",
+      "description": "XXX quill_transform_reason_c",
+      "label": "XXX quill_transform_reason_c"
     }
   ]
 }

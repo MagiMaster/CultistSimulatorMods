@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "id": "studyincreasewritingskilla",
+      "id": "quill_study_writing_a",
       "label": "Exercise the Mind: Wiser...",
       "actionId": "study",
       "requirements": {
@@ -20,7 +20,7 @@
       "craftable": true
     },
     {
-      "id": "studyincreasewritingskillb",
+      "id": "quill_study_writing_b",
       "label": "Exercise the Mind:  Wisest...",
       "actionId": "study",
       "requirements": {
@@ -39,7 +39,7 @@
       "craftable": true
     },
     {
-      "id": "studyincreasewritingskillc",
+      "id": "quill_study_writing_c",
       "label": "Exercise the Mind: A Busier Mind",
       "actionId": "study",
       "requirements": {

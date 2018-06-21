@@ -1,273 +1,297 @@
 {
   "elements": [
     {
-      "id": "writing_book_secrethistories",
-      "aspects": {
-        "secrethistories": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "label": "XXX book_secrethistories",
-      "description": "XXX book_secrethistories"
-    },
-    {
-      "id": "writing_book_forge",
-      "aspects": {
-        "forge": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "label": "XXX book_forge",
-      "description": "XXX book_forge"
-    },
-    {
-      "id": "writing_book_heart",
-      "aspects": {
-        "heart": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "label": "XXX book_heart",
-      "description": "XXX book_heart"
-    },
-    {
-      "id": "writing_book_edge",
-      "aspects": {
-        "edge": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "label": "XXX book_edge",
-      "description": "XXX book_edge"
-    },
-    {
-      "id": "writing_book_grail",
-      "aspects": {
-        "grail": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "label": "XXX book_grail",
-      "description": "XXX book_grail"
-    },
-    {
-      "id": "writing_book_winter",
-      "aspects": {
-        "winter": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "label": "XXX book_winter",
-      "description": "XXX book_winter"
-    },
-    {
-      "id": "writing_book_lantern",
+      "id": "quill_book_lantern",
       "aspects": {
         "lantern": 6,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_lantern",
-      "description": "XXX book_lantern"
+      "unique": true,
+      "description": "XXX quill_book_lantern",
+      "label": "XXX quill_book_lantern"
     },
     {
-      "id": "writing_book_moth",
+      "id": "quill_book_winter",
       "aspects": {
-        "moth": 6,
+        "winter": 6,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_moth",
-      "description": "XXX book_moth"
+      "unique": true,
+      "description": "XXX quill_book_winter",
+      "label": "XXX quill_book_winter"
     },
     {
-      "id": "writing_book_knock",
+      "id": "quill_book_forge",
+      "aspects": {
+        "forge": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "description": "XXX quill_book_forge",
+      "label": "XXX quill_book_forge"
+    },
+    {
+      "id": "quill_book_edge",
+      "aspects": {
+        "edge": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "description": "XXX quill_book_edge",
+      "label": "XXX quill_book_edge"
+    },
+    {
+      "id": "quill_book_knock",
       "aspects": {
         "knock": 6,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_knock",
-      "description": "XXX book_knock"
+      "unique": true,
+      "description": "XXX quill_book_knock",
+      "label": "XXX quill_book_knock"
     },
     {
-      "id": "writing_book_forge_subvert",
+      "id": "quill_book_secrethistories",
       "aspects": {
-        "forge": 8,
-        "lantern": 4,
+        "secrethistories": 6,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_forge_subvert",
-      "description": "XXX book_forge_subvert"
+      "unique": true,
+      "description": "XXX quill_book_secrethistories",
+      "label": "XXX quill_book_secrethistories"
     },
     {
-      "id": "writing_book_heart_subvert",
+      "id": "quill_book_heart",
       "aspects": {
-        "heart": 8,
-        "winter": 4,
+        "heart": 6,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_heart_subvert",
-      "description": "XXX book_heart_subvert"
+      "unique": true,
+      "description": "XXX quill_book_heart",
+      "label": "XXX quill_book_heart"
     },
     {
-      "id": "writing_book_edge_subvert",
+      "id": "quill_book_grail",
       "aspects": {
-        "edge": 8,
-        "forge": 4,
+        "grail": 6,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_edge_subvert",
-      "description": "XXX book_edge_subvert"
+      "unique": true,
+      "description": "XXX quill_book_grail",
+      "label": "XXX quill_book_grail"
     },
     {
-      "id": "writing_book_grail_subvert",
+      "id": "quill_book_moth",
       "aspects": {
-        "grail": 8,
-        "heart": 4,
+        "moth": 6,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_grail_subvert",
-      "description": "XXX book_grail_subvert"
+      "unique": true,
+      "description": "XXX quill_book_moth",
+      "label": "XXX quill_book_moth"
     },
     {
-      "id": "writing_book_winter_subvert",
-      "aspects": {
-        "winter": 8,
-        "edge": 4,
-        "tool": 1,
-        "text": 1
-      },
-      "label": "XXX book_winter_subvert",
-      "description": "XXX book_winter_subvert"
-    },
-    {
-      "id": "writing_book_lantern_subvert",
+      "id": "quill_book_lantern_subvert",
       "aspects": {
         "lantern": 8,
         "moth": 4,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_lantern_subvert",
-      "description": "XXX book_lantern_subvert"
+      "unique": true,
+      "description": "XXX quill_book_lantern_subvert",
+      "label": "A Light Through the Forest"
     },
     {
-      "id": "writing_book_moth_subvert",
+      "id": "quill_book_winter_subvert",
+      "aspects": {
+        "winter": 8,
+        "edge": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "description": "XXX quill_book_winter_subvert",
+      "label": "The Dead of Winter"
+    },
+    {
+      "id": "quill_book_forge_subvert",
+      "aspects": {
+        "forge": 8,
+        "lantern": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "description": "XXX quill_book_forge_subvert",
+      "label": "The Fire in the Lamp"
+    },
+    {
+      "id": "quill_book_edge_subvert",
+      "aspects": {
+        "edge": 8,
+        "forge": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "description": "XXX quill_book_edge_subvert",
+      "label": "On The Quenching of Blades"
+    },
+    {
+      "id": "quill_book_heart_subvert",
+      "aspects": {
+        "heart": 8,
+        "winter": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "description": "XXX quill_book_heart_subvert",
+      "label": "The First Storm of Spring"
+    },
+    {
+      "id": "quill_book_grail_subvert",
+      "aspects": {
+        "grail": 8,
+        "heart": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "description": "XXX quill_book_grail_subvert",
+      "label": "On The Flow of Blood"
+    },
+    {
+      "id": "quill_book_moth_subvert",
       "aspects": {
         "moth": 8,
         "grail": 4,
         "tool": 1,
         "text": 1
       },
-      "label": "XXX book_moth_subvert",
-      "description": "XXX book_moth_subvert"
+      "unique": true,
+      "description": "XXX quill_book_moth_subvert",
+      "label": "Carnivorous Plants of the Forest"
     },
     {
-      "id": "writing_almanac",
+      "id": "quill_almanac",
       "isaspect": true,
-      "label": "XXX almanac",
-      "description": "XXX almanac"
+      "description": "XXX quill_almanac",
+      "label": "Almanac"
     },
     {
-      "id": "writing_almanac_forge",
-      "aspects": {
-        "forge": 10,
-        "text": 1,
-        "writing_almanac": 1,
-        "secrethistories": 1
-      },
-      "lifetime": 180,
-      "label": "XXX almanac_forge",
-      "description": "XXX almanac_forge"
-    },
-    {
-      "id": "writing_almanac_heart",
-      "aspects": {
-        "heart": 10,
-        "text": 1,
-        "writing_almanac": 1,
-        "secrethistories": 1
-      },
-      "lifetime": 180,
-      "label": "XXX almanac_heart",
-      "description": "XXX almanac_heart"
-    },
-    {
-      "id": "writing_almanac_edge",
-      "aspects": {
-        "edge": 10,
-        "text": 1,
-        "writing_almanac": 1,
-        "secrethistories": 1
-      },
-      "lifetime": 180,
-      "label": "XXX almanac_edge",
-      "description": "XXX almanac_edge"
-    },
-    {
-      "id": "writing_almanac_grail",
-      "aspects": {
-        "grail": 10,
-        "text": 1,
-        "writing_almanac": 1,
-        "secrethistories": 1
-      },
-      "lifetime": 180,
-      "label": "XXX almanac_grail",
-      "description": "XXX almanac_grail"
-    },
-    {
-      "id": "writing_almanac_winter",
-      "aspects": {
-        "winter": 10,
-        "text": 1,
-        "writing_almanac": 1,
-        "secrethistories": 1
-      },
-      "lifetime": 180,
-      "label": "XXX almanac_winter",
-      "description": "XXX almanac_winter"
-    },
-    {
-      "id": "writing_almanac_lantern",
+      "id": "quill_almanac_lantern",
       "aspects": {
         "lantern": 10,
         "text": 1,
-        "writing_almanac": 1,
+        "quill_almanac": 1,
         "secrethistories": 1
       },
+      "unique": true,
       "lifetime": 180,
-      "label": "XXX almanac_lantern",
-      "description": "XXX almanac_lantern"
+      "description": "XXX quill_almanac_lantern",
+      "label": "Times and Places without Shadows"
     },
     {
-      "id": "writing_almanac_moth",
+      "id": "quill_almanac_winter",
       "aspects": {
-        "moth": 10,
+        "winter": 10,
         "text": 1,
-        "writing_almanac": 1,
+        "quill_almanac": 1,
         "secrethistories": 1
       },
+      "unique": true,
       "lifetime": 180,
-      "label": "XXX almanac_moth",
-      "description": "XXX almanac_moth"
+      "description": "XXX quill_almanac_winter",
+      "label": "Fractured Times and Places"
     },
     {
-      "id": "writing_almanac_knock",
+      "id": "quill_almanac_forge",
+      "aspects": {
+        "forge": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "description": "XXX quill_almanac_forge",
+      "label": "Times and Places Yet Unformed"
+    },
+    {
+      "id": "quill_almanac_edge",
+      "aspects": {
+        "edge": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "description": "XXX quill_almanac_edge",
+      "label": "XXX quill_almanac_edge"
+    },
+    {
+      "id": "quill_almanac_knock",
       "aspects": {
         "knock": 10,
         "text": 1,
-        "writing_almanac": 1,
+        "quill_almanac": 1,
         "secrethistories": 1
       },
+      "unique": true,
       "lifetime": 180,
-      "label": "XXX almanac_knock",
-      "description": "XXX almanac_knock"
+      "description": "XXX quill_almanac_knock",
+      "label": "XXX quill_almanac_knock"
+    },
+    {
+      "id": "quill_almanac_heart",
+      "aspects": {
+        "heart": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "description": "XXX quill_almanac_heart",
+      "label": "XXX quill_almanac_heart"
+    },
+    {
+      "id": "quill_almanac_grail",
+      "aspects": {
+        "grail": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "description": "XXX quill_almanac_grail",
+      "label": "XXX quill_almanac_grail"
+    },
+    {
+      "id": "quill_almanac_moth",
+      "aspects": {
+        "moth": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "description": "XXX quill_almanac_moth",
+      "label": "XXX quill_almanac_moth"
     }
   ]
 }
