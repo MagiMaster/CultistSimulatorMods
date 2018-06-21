@@ -1,0 +1,312 @@
+{
+  "action": "work",
+  "recipes": {
+    "write_$writestart": {
+      "link": {
+        "add_pigment": {}
+      },
+      "requirements": {
+        "writingskill": 1,
+        "{writestart}": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "craftable": true
+    },
+    "write_summoned": {
+      "link": {
+        "add_pigment": {}
+      },
+      "effects": {
+        "insight": 1
+      },
+      "requirements": {
+        "writingskill": 1,
+        "summoned": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "craftable": true
+    },
+    "add_pigment": {
+      "slots": [
+        {
+          "id": "Ink",
+          "required": {
+            "pigment": 1
+          },
+          "description": "XXX Ink"
+        }
+      ],
+      "alt": {
+        "added_$lore_match": {},
+        "added_pigment": {}
+      },
+      "link": {
+        "add_reason_passion": {}
+      }
+    },
+    "added_$lore_match": {
+      "requirements": {
+        "{lore}": 5,
+        "ingredient{lore}b": 1
+      },
+      "effects": {
+        "insight": 1
+      },
+      "link": {
+        "add_reason_passion": {}
+      }
+    },
+    "added_pigment": {
+      "requirements": {
+        "pigment": 1
+      },
+      "link": {
+        "add_reason_passion": {}
+      }
+    },
+    "add_reason_passion": {
+      "slots": [
+        {
+          "id": "Effort",
+          "required": {
+            "$effort": 1
+          },
+          "description": "XXX Reason or passion"
+        }
+      ],
+      "alt": {
+        "added_$effort": {}
+      },
+      "deckeffect": {
+        "quill_results_basic": 1
+      },
+      "link": {
+        "manuscript_$alllore": {},
+        "nothing": {}
+      }
+    },
+    "added_$effort": {
+      "requirements": {
+        "{effort}": 1
+      },
+      "effects": {
+        "insight": 1
+      },
+      "deckeffect": {
+        "quill_results_{effort}": 1
+      },
+      "link": {
+        "secret_$alllore": {
+          "chance": 85
+        },
+        "almanac_$lore": {},
+        "book_$lore_subvert": {
+          "comments": "subverts {subverts}"
+        },
+        "book_$alllore": {},
+        "manuscript_$alllore": {},
+        "nothing": {}
+      }
+    },
+    "secret_$alllore": {
+      "requirements": {
+        "{alllore}": 6,
+        "pigment": 1,
+        "reason": 1,
+        "lore": -1
+      },
+      "alt": {
+        "secret_{alllore}_c": {
+          "chance": 60
+        },
+        "secret_{alllore}_b": {
+          "chance": 80
+        },
+        "secret_{alllore}_a": {}
+      }
+    },
+    "secret_$alllore_c": {
+      "requirements": {
+        "{alllore}": 16,
+        "writingskill": 3
+      },
+      "effects": {
+        "fragment{alllore}c": 1,
+        "insight": 2
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "secret_$alllore_b": {
+      "requirements": {
+        "{alllore}": 10,
+        "writingskill": 2
+      },
+      "effects": {
+        "fragment{alllore}b": 1,
+        "insight": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "secret_$alllore_a": {
+      "requirements": {
+        "{alllore}": 6
+      },
+      "effects": {
+        "fragment{alllore}": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "almanac_$lore": {
+      "requirements": {
+        "{lore}": 14,
+        "reason": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "insight": 1,
+        "quill_almanac_{lore}": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "book_$lore_subvert": {
+      "requirements": {
+        "{subverts}": 8,
+        "{lore}": 4,
+        "passion": 1,
+        "writingskill": 3
+      },
+      "effects": {
+        "quill_book_{lore}_subvert": 1,
+        "insight": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "book_$alllore": {
+      "requirements": {
+        "{alllore}": 10,
+        "passion": 1,
+        "writingskill": 2
+      },
+      "effects": {
+        "quill_book_{alllore}": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "manuscript_$alllore": {
+      "requirements": {
+        "{alllore}": 2
+      },
+      "alt": {
+        "manuscript_{alllore}_c": {},
+        "manuscript_{alllore}_b": {},
+        "manuscript_{alllore}_a": {}
+      }
+    },
+    "manuscript_$alllore_c": {
+      "requirements": {
+        "{alllore}": 10,
+        "writingskill": 3
+      },
+      "effects": {
+        "article{alllore}c": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "manuscript_$alllore_b": {
+      "requirements": {
+        "{alllore}": 6,
+        "writingskill": 2
+      },
+      "effects": {
+        "article{alllore}b": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "manuscript_$alllore_a": {
+      "requirements": {
+        "{alllore}": 2
+      },
+      "effects": {
+        "article{alllore}a": 1
+      },
+      "link": {
+        "results": {}
+      }
+    },
+    "nothing": {
+      "effects": {
+        "restlessness": 1,
+        "insight": -99
+      }
+    },
+    "results": {
+      "alt": {
+        "results_three_insight": {},
+        "results_two_insight": {},
+        "results_one_insight": {}
+      },
+      "effects": {
+        "insight": -99,
+        "pigment": -1
+      }
+    },
+    "results_three_insight": {
+      "requirements": {
+        "insight": 3
+      },
+      "effects": {
+        "insight": -99,
+        "pigment": -1
+      },
+      "deckeffect": {
+        "quill_reputation": 3,
+        "quill_results_random": 2
+      }
+    },
+    "results_two_insight": {
+      "requirements": {
+        "insight": 2
+      },
+      "effects": {
+        "insight": -99,
+        "pigment": -1
+      },
+      "deckeffect": {
+        "quill_reputation": 2,
+        "quill_results_random": 1
+      }
+    },
+    "results_one_insight": {
+      "requirements": {
+        "insight": 1
+      },
+      "effects": {
+        "insight": -99,
+        "pigment": -1
+      },
+      "deckeffect": {
+        "quill_reputation": 1
+      }
+    }
+  }
+}

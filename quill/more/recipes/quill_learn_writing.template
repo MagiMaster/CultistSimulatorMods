@@ -1,0 +1,42 @@
+{
+  "action": "dream",
+  "recipes": {
+    "transform_$skill_a": {
+      "requirements": {
+        "{other}skill": 1
+      },
+      "effects": {
+        "{other}skill": -99,
+        "{skill}skilla": 1
+      },
+      "alt": {
+        "transform_scholarship_c": {},
+        "transform_scholarship_b": {}
+      },
+      "warmup": 60,
+      "craftable": true
+    },
+    "transform_$skill_b": {
+      "requirements": {
+        "{other}skill": 2
+      },
+      "effects": {
+        "{other}skill": -99,
+        "{skill}skillb": 1
+      },
+      "warmup": 60,
+      "craftable": true
+    },
+    "transform_$skill_c": {
+      "requirements": {
+        "{other}skill": 3
+      },
+      "effects": {
+        "{other}skill": -99,
+        "{skill}skillc": 1
+      },
+      "warmup": 60,
+      "craftable": true
+    }
+  }
+}

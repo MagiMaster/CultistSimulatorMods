@@ -1,0 +1,93 @@
+{
+  "action": "explore",
+  "recipes": {
+    "almanac_$lore": {
+      "requirements": {
+        "quill_almanac": 1,
+        "{lore}": 1
+      },
+      "linked": {
+        "almanac_{lore}_c": {
+          "chance": 10
+        },
+        "almanac_{lore}_b": {
+          "chance": 35
+        },
+        "almanac_{lore}_a": {}
+      },
+      "warmup": 45,
+      "craftable": true
+    },
+    "almanac_$lore_c": {
+      "effects": {
+        "influence{lore}e": 1
+      },
+      "linked": {
+        "almanac_notoriety": {
+          "chance": 10
+        },
+        "almanac_fascination": {
+          "chance": 35
+        },
+        "almanac_dread": {}
+      },
+      "warmup": 5
+    },
+    "almanac_$lore_b": {
+      "effects": {
+        "influence{lore}c": 1
+      },
+      "linked": {
+        "almanac_fascination": {
+          "chance": 10
+        },
+        "almanac_dread": {
+          "chance": 35
+        },
+        "almanac_mystique": {}
+      },
+      "warmup": 5
+    },
+    "almanac_$lore_a": {
+      "effects": {
+        "influence{lore}": 1
+      },
+      "linked": {
+        "almanac_dread": {
+          "chance": 10
+        },
+        "almanac_mystique": {
+          "chance": 35
+        },
+        "almanac_safe": {}
+      },
+      "warmup": 5
+    },
+    "almanac_safe": {
+      "warmup": 10
+    },
+    "almanac_mystique": {
+      "effects": {
+        "mystique": 1
+      },
+      "warmup": 10
+    },
+    "almanac_dread": {
+      "effects": {
+        "dread": 1
+      },
+      "warmup": 10
+    },
+    "almanac_fascination": {
+      "effects": {
+        "fascination": 1
+      }
+    },
+    "almanac_notoriety": {
+      "effects": {
+        "notoriety": 1
+      },
+      "warmup": 10
+    }
+  }
+}

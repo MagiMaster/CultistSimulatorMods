@@ -1,0 +1,34 @@
+{
+  "elements": {
+    "book_$alllore": {
+      "aspects": {
+        "{alllore}": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true
+    },
+    "book_$lore_subvert": {
+      "aspects": {
+        "{lore}": 8,
+        "{subverts}": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true
+    },
+    "almanac": {
+      "isaspect": true
+    },
+    "almanac_$lore": {
+      "aspects": {
+        "{lore}": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180
+    }
+  }
+}
