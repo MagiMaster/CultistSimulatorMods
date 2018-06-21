@@ -1,0 +1,69 @@
+{
+  "skill": {
+    "writing": {
+      "other": "reason"
+    },
+    "reason": {
+      "other": "writing"
+    }
+  },
+  "writestart": {
+    "lore": {},
+    "influence": {},
+    "tool": {},
+    "ingredient": {}
+  },
+  "alllore": {
+    "grail": {
+      "subverts": "heart"
+    },
+    "moth": {
+      "subverts": "grail"
+    },
+    "lantern": {
+      "subverts": "moth"
+    },
+    "forge": {
+      "subverts": "lantern"
+    },
+    "edge": {
+      "subverts": "forge"
+    },
+    "winter": {
+      "subverts": "edge"
+    },
+    "heart": {
+      "subverts": "winter"
+    },
+    "knock": {},
+    "secrethistories": {}
+  },
+  "lore": {
+    "grail": {
+      "subverts": "heart"
+    },
+    "moth": {
+      "subverts": "grail"
+    },
+    "lantern": {
+      "subverts": "moth"
+    },
+    "forge": {
+      "subverts": "lantern"
+    },
+    "edge": {
+      "subverts": "forge"
+    },
+    "winter": {
+      "subverts": "edge"
+    },
+    "heart": {
+      "subverts": "winter"
+    },
+    "knock": {}
+  },
+  "effort": {
+    "reason": {},
+    "passion": {}
+  }
+}
