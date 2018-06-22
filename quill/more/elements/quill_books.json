@@ -239,7 +239,7 @@
       "unique": true,
       "lifetime": 180,
       "description": "XXX quill_almanac_edge",
-      "label": "XXX quill_almanac_edge"
+      "label": "Perilous Times and Places"
     },
     {
       "id": "quill_almanac_knock",
@@ -252,7 +252,7 @@
       "unique": true,
       "lifetime": 180,
       "description": "XXX quill_almanac_knock",
-      "label": "XXX quill_almanac_knock"
+      "label": "Times Between Places Between Times"
     },
     {
       "id": "quill_almanac_heart",
@@ -265,7 +265,7 @@
       "unique": true,
       "lifetime": 180,
       "description": "XXX quill_almanac_heart",
-      "label": "XXX quill_almanac_heart"
+      "label": "Timings and Spaces Uninterrupted"
     },
     {
       "id": "quill_almanac_grail",
@@ -278,7 +278,7 @@
       "unique": true,
       "lifetime": 180,
       "description": "XXX quill_almanac_grail",
-      "label": "XXX quill_almanac_grail"
+      "label": "Times and Places Devoured "
     },
     {
       "id": "quill_almanac_moth",
@@ -291,7 +291,7 @@
       "unique": true,
       "lifetime": 180,
       "description": "XXX quill_almanac_moth",
-      "label": "XXX quill_almanac_moth"
+      "label": "Times Without Places"
     }
   ]
 }
