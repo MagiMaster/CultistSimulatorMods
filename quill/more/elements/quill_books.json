@@ -1,15 +1,15 @@
 {
   "elements": [
     {
-      "id": "quill_book_lantern",
+      "id": "quill_book_moth",
       "aspects": {
-        "lantern": 6,
+        "moth": 6,
         "tool": 1,
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_lantern",
-      "label": "XXX quill_book_lantern"
+      "label": "XXX quill_book_moth",
+      "description": "XXX quill_book_moth"
     },
     {
       "id": "quill_book_winter",
@@ -19,41 +19,19 @@
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_winter",
-      "label": "XXX quill_book_winter"
+      "label": "XXX quill_book_winter",
+      "description": "XXX quill_book_winter"
     },
     {
-      "id": "quill_book_forge",
+      "id": "quill_book_lantern",
       "aspects": {
-        "forge": 6,
+        "lantern": 6,
         "tool": 1,
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_forge",
-      "label": "XXX quill_book_forge"
-    },
-    {
-      "id": "quill_book_edge",
-      "aspects": {
-        "edge": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "unique": true,
-      "description": "XXX quill_book_edge",
-      "label": "XXX quill_book_edge"
-    },
-    {
-      "id": "quill_book_knock",
-      "aspects": {
-        "knock": 6,
-        "tool": 1,
-        "text": 1
-      },
-      "unique": true,
-      "description": "XXX quill_book_knock",
-      "label": "XXX quill_book_knock"
+      "label": "XXX quill_book_lantern",
+      "description": "XXX quill_book_lantern"
     },
     {
       "id": "quill_book_secrethistories",
@@ -63,8 +41,19 @@
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_secrethistories",
-      "label": "XXX quill_book_secrethistories"
+      "label": "XXX quill_book_secrethistories",
+      "description": "XXX quill_book_secrethistories"
+    },
+    {
+      "id": "quill_book_knock",
+      "aspects": {
+        "knock": 6,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "label": "XXX quill_book_knock",
+      "description": "XXX quill_book_knock"
     },
     {
       "id": "quill_book_heart",
@@ -74,8 +63,8 @@
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_heart",
-      "label": "XXX quill_book_heart"
+      "label": "XXX quill_book_heart",
+      "description": "XXX quill_book_heart"
     },
     {
       "id": "quill_book_grail",
@@ -85,91 +74,30 @@
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_grail",
-      "label": "XXX quill_book_grail"
+      "label": "XXX quill_book_grail",
+      "description": "XXX quill_book_grail"
     },
     {
-      "id": "quill_book_moth",
+      "id": "quill_book_edge",
       "aspects": {
-        "moth": 6,
+        "edge": 6,
         "tool": 1,
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_moth",
-      "label": "XXX quill_book_moth"
+      "label": "XXX quill_book_edge",
+      "description": "XXX quill_book_edge"
     },
     {
-      "id": "quill_book_lantern_subvert",
+      "id": "quill_book_forge",
       "aspects": {
-        "lantern": 8,
-        "moth": 4,
+        "forge": 6,
         "tool": 1,
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_lantern_subvert",
-      "label": "A Light Through the Forest"
-    },
-    {
-      "id": "quill_book_winter_subvert",
-      "aspects": {
-        "winter": 8,
-        "edge": 4,
-        "tool": 1,
-        "text": 1
-      },
-      "unique": true,
-      "description": "XXX quill_book_winter_subvert",
-      "label": "The Dead of Winter"
-    },
-    {
-      "id": "quill_book_forge_subvert",
-      "aspects": {
-        "forge": 8,
-        "lantern": 4,
-        "tool": 1,
-        "text": 1
-      },
-      "unique": true,
-      "description": "XXX quill_book_forge_subvert",
-      "label": "The Fire in the Lamp"
-    },
-    {
-      "id": "quill_book_edge_subvert",
-      "aspects": {
-        "edge": 8,
-        "forge": 4,
-        "tool": 1,
-        "text": 1
-      },
-      "unique": true,
-      "description": "XXX quill_book_edge_subvert",
-      "label": "On The Quenching of Blades"
-    },
-    {
-      "id": "quill_book_heart_subvert",
-      "aspects": {
-        "heart": 8,
-        "winter": 4,
-        "tool": 1,
-        "text": 1
-      },
-      "unique": true,
-      "description": "XXX quill_book_heart_subvert",
-      "label": "The First Storm of Spring"
-    },
-    {
-      "id": "quill_book_grail_subvert",
-      "aspects": {
-        "grail": 8,
-        "heart": 4,
-        "tool": 1,
-        "text": 1
-      },
-      "unique": true,
-      "description": "XXX quill_book_grail_subvert",
-      "label": "On The Flow of Blood"
+      "label": "XXX quill_book_forge",
+      "description": "XXX quill_book_forge"
     },
     {
       "id": "quill_book_moth_subvert",
@@ -180,105 +108,86 @@
         "text": 1
       },
       "unique": true,
-      "description": "XXX quill_book_moth_subvert",
-      "label": "Carnivorous Plants of the Forest"
+      "label": "Carnivorous Plants of the Forest",
+      "description": "XXX quill_book_moth_subvert"
+    },
+    {
+      "id": "quill_book_winter_subvert",
+      "aspects": {
+        "winter": 8,
+        "edge": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "label": "The Dead of Winter",
+      "description": "XXX quill_book_winter_subvert"
+    },
+    {
+      "id": "quill_book_lantern_subvert",
+      "aspects": {
+        "lantern": 8,
+        "moth": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "label": "A Light Through the Forest",
+      "description": "XXX quill_book_lantern_subvert"
+    },
+    {
+      "id": "quill_book_heart_subvert",
+      "aspects": {
+        "heart": 8,
+        "winter": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "label": "The First Storm of Spring",
+      "description": "XXX quill_book_heart_subvert"
+    },
+    {
+      "id": "quill_book_grail_subvert",
+      "aspects": {
+        "grail": 8,
+        "heart": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "label": "On The Flow of Blood",
+      "description": "XXX quill_book_grail_subvert"
+    },
+    {
+      "id": "quill_book_edge_subvert",
+      "aspects": {
+        "edge": 8,
+        "forge": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "label": "On The Quenching of Blades",
+      "description": "XXX quill_book_edge_subvert"
+    },
+    {
+      "id": "quill_book_forge_subvert",
+      "aspects": {
+        "forge": 8,
+        "lantern": 4,
+        "tool": 1,
+        "text": 1
+      },
+      "unique": true,
+      "label": "The Fire in the Lamp",
+      "description": "XXX quill_book_forge_subvert"
     },
     {
       "id": "quill_almanac",
       "isaspect": true,
-      "description": "XXX quill_almanac",
-      "label": "Almanac"
-    },
-    {
-      "id": "quill_almanac_lantern",
-      "aspects": {
-        "lantern": 10,
-        "text": 1,
-        "quill_almanac": 1,
-        "secrethistories": 1
-      },
-      "unique": true,
-      "lifetime": 180,
-      "description": "XXX quill_almanac_lantern",
-      "label": "Times and Places without Shadows"
-    },
-    {
-      "id": "quill_almanac_winter",
-      "aspects": {
-        "winter": 10,
-        "text": 1,
-        "quill_almanac": 1,
-        "secrethistories": 1
-      },
-      "unique": true,
-      "lifetime": 180,
-      "description": "XXX quill_almanac_winter",
-      "label": "Fractured Times and Places"
-    },
-    {
-      "id": "quill_almanac_forge",
-      "aspects": {
-        "forge": 10,
-        "text": 1,
-        "quill_almanac": 1,
-        "secrethistories": 1
-      },
-      "unique": true,
-      "lifetime": 180,
-      "description": "XXX quill_almanac_forge",
-      "label": "Times and Places Yet Unformed"
-    },
-    {
-      "id": "quill_almanac_edge",
-      "aspects": {
-        "edge": 10,
-        "text": 1,
-        "quill_almanac": 1,
-        "secrethistories": 1
-      },
-      "unique": true,
-      "lifetime": 180,
-      "description": "XXX quill_almanac_edge",
-      "label": "Perilous Times and Places"
-    },
-    {
-      "id": "quill_almanac_knock",
-      "aspects": {
-        "knock": 10,
-        "text": 1,
-        "quill_almanac": 1,
-        "secrethistories": 1
-      },
-      "unique": true,
-      "lifetime": 180,
-      "description": "XXX quill_almanac_knock",
-      "label": "Times Between Places Between Times"
-    },
-    {
-      "id": "quill_almanac_heart",
-      "aspects": {
-        "heart": 10,
-        "text": 1,
-        "quill_almanac": 1,
-        "secrethistories": 1
-      },
-      "unique": true,
-      "lifetime": 180,
-      "description": "XXX quill_almanac_heart",
-      "label": "Timings and Spaces Uninterrupted"
-    },
-    {
-      "id": "quill_almanac_grail",
-      "aspects": {
-        "grail": 10,
-        "text": 1,
-        "quill_almanac": 1,
-        "secrethistories": 1
-      },
-      "unique": true,
-      "lifetime": 180,
-      "description": "XXX quill_almanac_grail",
-      "label": "Times and Places Devoured "
+      "label": "Almanac",
+      "description": "XXX quill_almanac"
     },
     {
       "id": "quill_almanac_moth",
@@ -290,8 +199,99 @@
       },
       "unique": true,
       "lifetime": 180,
-      "description": "XXX quill_almanac_moth",
-      "label": "Times Without Places"
+      "label": "Times Without Places",
+      "description": "XXX quill_almanac_moth"
+    },
+    {
+      "id": "quill_almanac_winter",
+      "aspects": {
+        "winter": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "label": "Fractured Times and Places",
+      "description": "XXX quill_almanac_winter"
+    },
+    {
+      "id": "quill_almanac_lantern",
+      "aspects": {
+        "lantern": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "label": "Times and Places without Shadows",
+      "description": "XXX quill_almanac_lantern"
+    },
+    {
+      "id": "quill_almanac_knock",
+      "aspects": {
+        "knock": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "label": "Times Between Places Between Times",
+      "description": "XXX quill_almanac_knock"
+    },
+    {
+      "id": "quill_almanac_heart",
+      "aspects": {
+        "heart": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "label": "Timings and Spaces Uninterrupted",
+      "description": "XXX quill_almanac_heart"
+    },
+    {
+      "id": "quill_almanac_grail",
+      "aspects": {
+        "grail": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "label": "Times and Places Devoured ",
+      "description": "XXX quill_almanac_grail"
+    },
+    {
+      "id": "quill_almanac_edge",
+      "aspects": {
+        "edge": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "label": "Perilous Times and Places",
+      "description": "XXX quill_almanac_edge"
+    },
+    {
+      "id": "quill_almanac_forge",
+      "aspects": {
+        "forge": 10,
+        "text": 1,
+        "quill_almanac": 1,
+        "secrethistories": 1
+      },
+      "unique": true,
+      "lifetime": 180,
+      "label": "Times and Places Yet Unformed",
+      "description": "XXX quill_almanac_forge"
     }
   ]
 }

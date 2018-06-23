@@ -1,42 +1,111 @@
 {
   "action": "dream",
   "recipes": {
-    "transform_$skill_a": {
+    "transform_$skill_start_a": {
       "requirements": {
-        "{other}skill": 1
+        "{skill}skill": 1
       },
       "effects": {
-        "{other}skill": -99,
-        "{skill}skilla": 1
+        "{skill}skill": -99,
+        "insight": 1
       },
       "alt": {
-        "transform_scholarship_c": {},
-        "transform_scholarship_b": {}
+        "transform_{skill}_start_c": {},
+        "transform_{skill}_start_b": {}
       },
-      "warmup": 60,
+      "link": {
+        "transform_choose": {}
+      },
+      "warmup": 20,
       "craftable": true
     },
-    "transform_$skill_b": {
+    "transform_$skill_start_b": {
       "requirements": {
-        "{other}skill": 2
+        "{skill}skill": 2
       },
       "effects": {
-        "{other}skill": -99,
-        "{skill}skillb": 1
+        "{skill}skill": -99,
+        "insight": 2
       },
-      "warmup": 60,
-      "craftable": true
+      "link": {
+        "transform_choose": {}
+      },
+      "warmup": 20
     },
-    "transform_$skill_c": {
+    "transform_$skill_start_c": {
       "requirements": {
-        "{other}skill": 3
+        "{skill}skill": 3
       },
       "effects": {
-        "{other}skill": -99,
-        "{skill}skillc": 1
+        "{skill}skill": -99,
+        "insight": 3
       },
-      "warmup": 60,
-      "craftable": true
+      "link": {
+        "transform_choose": {}
+      },
+      "warmup": 20
+    },
+    "transform_choose": {
+      "slots": [
+        {
+          "id": "Approach",
+          "required": {
+            "$effort": 1
+          },
+          "description": "What is my approach to the written word?"
+        }
+      ],
+      "alt": {
+        "transform_become_$skill_c": {},
+        "transform_become_$skill_b": {},
+        "transform_become_$skill_a": {}
+      },
+      "link": {
+        "transform_choose": {}
+      },
+      "warmup": 20
+    },
+    "transform_become_$skill_a": {
+      "requirements": {
+        "insight": 1,
+        "{approach}": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skill{skill}a": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20
+    },
+    "transform_become_$skill_b": {
+      "requirements": {
+        "insight": 2,
+        "{approach}": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skill{skill}b": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20
+    },
+    "transform_become_$skill_c": {
+      "requirements": {
+        "insight": 3,
+        "{approach}": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skill{skill}c": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20
     }
   }
 }

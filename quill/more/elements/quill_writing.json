@@ -8,8 +8,8 @@
       "description": "I am a pillar of wisdoms."
     },
     {
-      "id": "writingskilla",
-      "icon": "reasonskilla",
+      "id": "skillwritinga",
+      "icon": "skillreasona",
       "label": "Skill: Writing",
       "aspects": {
         "writingskill": 1,
@@ -75,16 +75,16 @@
         }
       ],
       "xtriggers": {
-        "careeradvancement": "writingskillb"
+        "careeradvancement": "skillwritingb"
       }
     },
     {
-      "id": "writingskillb",
-      "icon": "reasonskillb",
+      "id": "skillwritingb",
+      "icon": "skillreasonb",
       "label": "Skill: Notable Writing",
       "description": "I have learnt enough to know how little I know.",
       "xtriggers": {
-        "careeradvancement": "writingskillc"
+        "careeradvancement": "skillwritingc"
       },
       "aspects": {
         "writingskill": 2,
@@ -170,8 +170,8 @@
       ]
     },
     {
-      "id": "writingskillc",
-      "icon": "reasonskillc",
+      "id": "skillwritingc",
+      "icon": "skillreasonc",
       "label": "Skill: Profound Writing",
       "description": "My skull creaks at the corners with the knowledge I've accrued.",
       "aspects": {

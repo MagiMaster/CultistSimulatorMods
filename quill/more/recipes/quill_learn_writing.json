@@ -1,120 +1,316 @@
 {
   "recipes": [
     {
-      "id": "quill_transform_writing_a",
+      "id": "quill_transform_reason_start_a",
       "actionId": "dream",
       "requirements": {
         "reasonskill": 1
       },
       "effects": {
         "reasonskill": -99,
-        "writingskilla": 1
+        "insight": 1
       },
       "alternativerecipes": [
         {
-          "id": "quill_transform_scholarship_c",
+          "id": "quill_transform_reason_start_c",
           "chance": 100
         },
         {
-          "id": "quill_transform_scholarship_b",
+          "id": "quill_transform_reason_start_b",
           "chance": 100
         }
       ],
-      "warmup": 1,
+      "linked": [
+        {
+          "id": "quill_transform_choose",
+          "chance": 100
+        }
+      ],
+      "warmup": 20,
       "craftable": true,
-      "startdescription": "XXX quill_transform_writing_a",
-      "description": "XXX quill_transform_writing_a",
-      "label": "XXX quill_transform_writing_a"
+      "startdescription": "XXX quill_transform_reason_start_a",
+      "label": "XXX quill_transform_reason_start_a",
+      "description": "XXX quill_transform_reason_start_a"
     },
     {
-      "id": "quill_transform_reason_a",
+      "id": "quill_transform_writing_start_a",
       "actionId": "dream",
       "requirements": {
         "writingskill": 1
       },
       "effects": {
         "writingskill": -99,
-        "reasonskilla": 1
+        "insight": 1
       },
       "alternativerecipes": [
         {
-          "id": "quill_transform_scholarship_c",
+          "id": "quill_transform_writing_start_c",
           "chance": 100
         },
         {
-          "id": "quill_transform_scholarship_b",
+          "id": "quill_transform_writing_start_b",
           "chance": 100
         }
       ],
-      "warmup": 1,
+      "linked": [
+        {
+          "id": "quill_transform_choose",
+          "chance": 100
+        }
+      ],
+      "warmup": 20,
       "craftable": true,
-      "startdescription": "XXX quill_transform_reason_a",
-      "description": "XXX quill_transform_reason_a",
-      "label": "XXX quill_transform_reason_a"
+      "startdescription": "XXX quill_transform_writing_start_a",
+      "label": "XXX quill_transform_writing_start_a",
+      "description": "XXX quill_transform_writing_start_a"
     },
     {
-      "id": "quill_transform_writing_b",
+      "id": "quill_transform_reason_start_b",
       "actionId": "dream",
       "requirements": {
         "reasonskill": 2
       },
       "effects": {
         "reasonskill": -99,
-        "writingskillb": 1
+        "insight": 2
       },
-      "warmup": 1,
-      "craftable": true,
-      "startdescription": "XXX quill_transform_writing_b",
-      "description": "XXX quill_transform_writing_b",
-      "label": "XXX quill_transform_writing_b"
+      "linked": [
+        {
+          "id": "quill_transform_choose",
+          "chance": 100
+        }
+      ],
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_reason_start_b",
+      "label": "XXX quill_transform_reason_start_b",
+      "description": "XXX quill_transform_reason_start_b"
     },
     {
-      "id": "quill_transform_reason_b",
+      "id": "quill_transform_writing_start_b",
       "actionId": "dream",
       "requirements": {
         "writingskill": 2
       },
       "effects": {
         "writingskill": -99,
-        "reasonskillb": 1
+        "insight": 2
       },
-      "warmup": 1,
-      "craftable": true,
-      "startdescription": "XXX quill_transform_reason_b",
-      "description": "XXX quill_transform_reason_b",
-      "label": "XXX quill_transform_reason_b"
+      "linked": [
+        {
+          "id": "quill_transform_choose",
+          "chance": 100
+        }
+      ],
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_writing_start_b",
+      "label": "XXX quill_transform_writing_start_b",
+      "description": "XXX quill_transform_writing_start_b"
     },
     {
-      "id": "quill_transform_writing_c",
+      "id": "quill_transform_reason_start_c",
       "actionId": "dream",
       "requirements": {
         "reasonskill": 3
       },
       "effects": {
         "reasonskill": -99,
-        "writingskillc": 1
+        "insight": 3
       },
-      "warmup": 1,
-      "craftable": true,
-      "startdescription": "XXX quill_transform_writing_c",
-      "description": "XXX quill_transform_writing_c",
-      "label": "XXX quill_transform_writing_c"
+      "linked": [
+        {
+          "id": "quill_transform_choose",
+          "chance": 100
+        }
+      ],
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_reason_start_c",
+      "label": "XXX quill_transform_reason_start_c",
+      "description": "XXX quill_transform_reason_start_c"
     },
     {
-      "id": "quill_transform_reason_c",
+      "id": "quill_transform_writing_start_c",
       "actionId": "dream",
       "requirements": {
         "writingskill": 3
       },
       "effects": {
         "writingskill": -99,
-        "reasonskillc": 1
+        "insight": 3
       },
-      "warmup": 1,
-      "craftable": true,
-      "startdescription": "XXX quill_transform_reason_c",
-      "description": "XXX quill_transform_reason_c",
-      "label": "XXX quill_transform_reason_c"
+      "linked": [
+        {
+          "id": "quill_transform_choose",
+          "chance": 100
+        }
+      ],
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_writing_start_c",
+      "label": "XXX quill_transform_writing_start_c",
+      "description": "XXX quill_transform_writing_start_c"
+    },
+    {
+      "id": "quill_transform_choose",
+      "actionId": "dream",
+      "slots": [
+        {
+          "id": "Approach",
+          "required": {
+            "passion": 1,
+            "reason": 1
+          },
+          "description": "What is my approach to the written word?"
+        }
+      ],
+      "alternativerecipes": [
+        {
+          "id": "quill_transform_become_reason_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_transform_become_writing_c",
+          "chance": 100
+        },
+        {
+          "id": "quill_transform_become_reason_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_transform_become_writing_b",
+          "chance": 100
+        },
+        {
+          "id": "quill_transform_become_reason_a",
+          "chance": 100
+        },
+        {
+          "id": "quill_transform_become_writing_a",
+          "chance": 100
+        }
+      ],
+      "linked": [
+        {
+          "id": "quill_transform_choose",
+          "chance": 100
+        }
+      ],
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_choose",
+      "label": "XXX quill_transform_choose",
+      "description": "XXX quill_transform_choose"
+    },
+    {
+      "id": "quill_transform_become_reason_a",
+      "actionId": "dream",
+      "requirements": {
+        "insight": 1,
+        "reason": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skillreasona": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_become_reason_a",
+      "label": "XXX quill_transform_become_reason_a",
+      "description": "XXX quill_transform_become_reason_a"
+    },
+    {
+      "id": "quill_transform_become_writing_a",
+      "actionId": "dream",
+      "requirements": {
+        "insight": 1,
+        "passion": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skillwritinga": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_become_writing_a",
+      "label": "XXX quill_transform_become_writing_a",
+      "description": "XXX quill_transform_become_writing_a"
+    },
+    {
+      "id": "quill_transform_become_reason_b",
+      "actionId": "dream",
+      "requirements": {
+        "insight": 2,
+        "reason": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skillreasonb": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_become_reason_b",
+      "label": "XXX quill_transform_become_reason_b",
+      "description": "XXX quill_transform_become_reason_b"
+    },
+    {
+      "id": "quill_transform_become_writing_b",
+      "actionId": "dream",
+      "requirements": {
+        "insight": 2,
+        "passion": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skillwritingb": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_become_writing_b",
+      "label": "XXX quill_transform_become_writing_b",
+      "description": "XXX quill_transform_become_writing_b"
+    },
+    {
+      "id": "quill_transform_become_reason_c",
+      "actionId": "dream",
+      "requirements": {
+        "insight": 3,
+        "reason": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skillreasonc": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_become_reason_c",
+      "label": "XXX quill_transform_become_reason_c",
+      "description": "XXX quill_transform_become_reason_c"
+    },
+    {
+      "id": "quill_transform_become_writing_c",
+      "actionId": "dream",
+      "requirements": {
+        "insight": 3,
+        "passion": 1
+      },
+      "effects": {
+        "insight": -99,
+        "skillwritingc": 1
+      },
+      "aspects": {
+        "fatiguing": 1
+      },
+      "warmup": 20,
+      "startdescription": "XXX quill_transform_become_writing_c",
+      "label": "XXX quill_transform_become_writing_c",
+      "description": "XXX quill_transform_become_writing_c"
     }
   ]
 }

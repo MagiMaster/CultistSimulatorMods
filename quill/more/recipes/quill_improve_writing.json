@@ -5,7 +5,7 @@
       "label": "Exercise the Mind: Wiser...",
       "actionId": "study",
       "requirements": {
-        "writingskilla": 1,
+        "skillwritinga": 1,
         "erudition": 4
       },
       "aspects": {
@@ -24,7 +24,7 @@
       "label": "Exercise the Mind:  Wisest...",
       "actionId": "study",
       "requirements": {
-        "writingskillb": 1,
+        "skillwritingb": 1,
         "erudition": 6
       },
       "aspects": {
@@ -43,7 +43,7 @@
       "label": "Exercise the Mind: A Busier Mind",
       "actionId": "study",
       "requirements": {
-        "writingskillc": 1,
+        "skillwritingc": 1,
         "erudition": 8
       },
       "startdescription": "Now I forget as much as I learn, but I can still gain Reason.",
