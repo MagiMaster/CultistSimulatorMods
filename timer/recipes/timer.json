@@ -1,0 +1,14 @@
+{
+  "recipes": [
+    {
+      "id": "count_time",
+      "actionId": "timer",
+      "icon": "season",
+      "effects": {
+        "time_passed": 1
+      },
+      "warmup": 1,
+      "startdescription": "Counting the hours."
+    }
+  ]
+}

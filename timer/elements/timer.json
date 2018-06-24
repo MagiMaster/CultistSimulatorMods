@@ -1,0 +1,10 @@
+{
+  "elements": [
+    {
+      "id": "time_passed",
+      "icon": "season",
+      "label": "Time Passed",
+      "description": "How many seasons have passed since this all began."
+    }
+  ]
+}
